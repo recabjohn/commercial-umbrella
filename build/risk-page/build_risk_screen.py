@@ -109,7 +109,7 @@ const sub=t=>M.groups.find(s=>s.TileName===t);
 // ---- policy ----
 const pol={},policyAttrs=M.policy.AttributeDetailList,stateAttr=policyAttrs[0];
 const polBody=H('<div></div>'),polHost=H('<div></div>');
-const stateAcc=accordion('Policy',polBody,`<button type="button" class="plus" aria-label="Add Policy">${plus}</button>`);
+const stateAcc=accordion('Policy',polBody);
 let rest=null,after=null,stAcc=null;
 function openPolicy(){if(polHost.firstChild)return;polBody.append(polHost);polHost.addEventListener('input',()=>showPremium());
  const sf=fieldEl(stateAttr,pol,()=>{if(pol.State&&!rest)showRest();});polHost.append(sf);polHost._sf=sf}
@@ -121,7 +121,6 @@ function showRest(){rest=form(policyAttrs.slice(1),pol);polHost.append(rest);
   const lbl=`${pol.State} - ${pol.PolicyCoverageForm} (Primary State)`;
   if(!stAcc){stAcc=accordion(lbl,polHost);polBody.append(stAcc)}else $('h2',stAcc).textContent=lbl;   // state row appears only after Save
   stAcc.classList.add('closed')}}
-$('.plus',stateAcc).onclick=openPolicy;
 // ---- additional coverages + risk schedule ----
 function table(cols,onadd,title,big){const t=H(`<div class="tbl"><table><thead><tr><th></th>${cols.map(c=>`<th>${esc(c)}</th>`).join('')}<th>Action</th></tr></thead><tbody></tbody></table></div>`);
  const none=()=>{if(!$('tr',$('tbody',t)))$('tbody',t).append(H(`<tr class="nr"><td class="none" colspan="${cols.length+2}">No Records To Display.</td></tr>`))};none();t._none=none;return t}
@@ -191,7 +190,7 @@ function showPremium(){if(!rest)return;const r=rate(),set=(n,v)=>polHost.querySe
  set('CommercialUmbrella1stMillionCoverage.PolicyTermPremium',money(r.first));
  ['2nd','3rd','4th','5th'].forEach(m=>set(`CommercialUmbrella${m}MillionCoverage.PolicyTermPremium`,money(0)));
  set('CommercialUmbrellaExcessLiabilityCoverage.PolicyTermPremium',money(r.excess))}
-$('#state').append(stateAcc);sync();
+$('#state').append(stateAcc);openPolicy();sync();
 // ---- restore: Program Selection -> Previous replays the saved policy and underlying rows through the same UI ----
 function fill(root,v){root.querySelectorAll('.fld').forEach(f=>{if(!f._a)return;const k=f._a.AttributeName;if(v[k]===undefined)return;
  const c=$('select,input',f);c.value=v[k];c.dispatchEvent(new Event('input'))})}

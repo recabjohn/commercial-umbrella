@@ -10,7 +10,6 @@ with sync_playwright() as p:
     pg.on("pageerror", lambda e: errs.append(str(e)))
     pg.goto(page_url)
     assert pg.locator("h2:text-is('Policy')").count() == 1 and pg.locator("#after").inner_text() == ""   # nothing below State yet
-    pg.click("button[aria-label='Add Policy']")
     assert pg.locator("#state .fld").count() == 1                                                      # only State shown
     pg.select_option("#state select", "AL")
     n_fields = pg.locator("#state .fld:not(.hide)").count()

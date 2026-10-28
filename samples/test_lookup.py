@@ -20,7 +20,6 @@ try:
         pg.evaluate("sessionStorage.setItem('cuSample','NONE')")
         pg.locator("#programs input").first.check()
         pg.click("#lob-next")
-        pg.click("button[aria-label='Add Policy']")
         pg.select_option("#state select >> nth=0", "KY")
         pg.select_option("#state .fld:has-text('Accept Certified Acts of Terrorism') select >> nth=0", "No")
         pg.click("#state .save .btn")
