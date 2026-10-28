@@ -1,0 +1,260 @@
+Table,Sequence,DisplayValue,DataValue,Status
+Domain Table,,,,
+Act,Sequence,Display Value,DataValue,Status
+Act,1,Not Applicable,Not Applicable,Added
+Act,2,Completion,Completion,Added
+Act,3,Disposal,Disposal,Added
+Act,4,Distribution,Distribution,Added
+Act,5,Manufacture,Manufacture,Added
+Act,6,Sale,Sale,Added
+Constant,Sequence,Display Value,DataValue,Status
+Constant,1,Y,Y,Inherited
+CoverageForm,Sequence,Display Value,DataValue,Status
+CoverageForm,1,Occurrence,Occurrence,Added
+CoverageForm,2,Claims Made,Claims Made,Added
+CoverageFormNotApplicable,Sequence,Display Value,DataValue,Status
+CoverageFormNotApplicable,1,Occurrence,Occurrence,Added
+CoverageFormNotApplicable,2,Claims Made,Claims Made,Added
+CoverageFormNotApplicable,3,Not Applicable,Not Applicable,Added
+LegalEntity,Sequence,Display Value,DataValue,Status
+LegalEntity,1,Association,Association,Added
+LegalEntity,2,C Corporation,C Corporation,Added
+LegalEntity,3,Common Ownership,Common Ownership,Added
+LegalEntity,4,Corporation,Corporation,Added
+LegalEntity,5,Domestic Profit Corporation,Domestic Profit Corporation,Added
+LegalEntity,6,Executor or Trustee,Executor or Trustee,Added
+LegalEntity,7,Foreign Corporation,Foreign Corporation,Added
+LegalEntity,8,Foreign Limited Liability Corporation,Foreign Limited Liability Corporation,Added
+LegalEntity,9,Foreign Limited Partnership,Foreign Limited Partnership,Added
+LegalEntity,10,General Partnership,General Partnership,Added
+LegalEntity,11,Governmental Unit,Governmental Unit,Added
+LegalEntity,12,Individual,Individual,Added
+LegalEntity,13,Joint Employers,Joint Employers,Added
+LegalEntity,14,Joint Venture,Joint Venture,Added
+LegalEntity,15,Labor Union,Labor Union,Added
+LegalEntity,16,Limited Corporation,Limited Corporation,Added
+LegalEntity,17,Limited Liability Company,Limited Liability Company,Added
+LegalEntity,18,Limited Liability Partnership,Limited Liability Partnership,Added
+LegalEntity,19,Limited Partnership,Limited Partnership,Added
+LegalEntity,20,Multiple Status,Multiple Status,Added
+LegalEntity,21,Nonprofit Corporation,Nonprofit Corporation,Added
+LegalEntity,22,Other,Other,Added
+LegalEntity,23,Partnership,Partnership,Added
+LegalEntity,24,Professional Corporation,Professional Corporation,Added
+LegalEntity,25,Religious Organization,Religious Organization,Added
+LegalEntity,26,S Corporation,S Corporation,Added
+LegalEntity,27,Sole Proprietor,Sole Proprietor,Added
+LegalEntity,28,Trust or Estate,Trust or Estate,Added
+LiabilityLimit,Sequence,Display Value,DataValue,Status
+LiabilityLimit,1,"10,000","10,000",Added
+LiabilityLimit,2,"15,000","15,000",Added
+LiabilityLimit,3,"20,000","20,000",Added
+LiabilityLimit,4,"25,000","25,000",Added
+LiabilityLimit,5,"30,000","30,000",Added
+LiabilityLimit,6,"35,000","35,000",Added
+LiabilityLimit,7,"40,000","40,000",Added
+LiabilityLimit,8,"45,000","45,000",Added
+LiabilityLimit,9,"50,000","50,000",Added
+LiabilityLimit,10,"55,000","55,000",Added
+LiabilityLimit,11,"60,000","60,000",Added
+LiabilityLimit,12,"65,000","65,000",Added
+LiabilityLimit,13,"70,000","70,000",Added
+LiabilityLimit,14,"75,000","75,000",Added
+LiabilityLimit,15,"80,000","80,000",Added
+LiabilityLimit,16,"85,000","85,000",Added
+LiabilityLimit,17,"90,000","90,000",Added
+LiabilityLimit,18,"95,000","95,000",Added
+LiabilityLimit,19,"100,000","100,000",Added
+LiabilityLimit,20,"125,000","125,000",Added
+LiabilityLimit,21,"150,000","150,000",Added
+LiabilityLimit,22,"175,000","175,000",Added
+LiabilityLimit,23,"200,000","200,000",Added
+LiabilityLimit,24,"225,000","225,000",Added
+LiabilityLimit,25,"250,000","250,000",Added
+LiabilityLimit,26,"275,000","275,000",Added
+LiabilityLimit,27,"300,000","300,000",Added
+LiabilityLimit,28,"325,000","325,000",Added
+LiabilityLimit,29,"350,000","350,000",Added
+LiabilityLimit,30,"375,000","375,000",Added
+LiabilityLimit,31,"400,000","400,000",Added
+LiabilityLimit,32,"425,000","425,000",Added
+LiabilityLimit,33,"450,000","450,000",Added
+LiabilityLimit,34,"475,000","475,000",Added
+LiabilityLimit,35,"500,000","500,000",Added
+LiabilityLimit,36,"525,000","525,000",Added
+LiabilityLimit,37,"550,000","550,000",Added
+LiabilityLimit,38,"575,000","575,000",Added
+LiabilityLimit,39,"600,000","600,000",Added
+LiabilityLimit,40,"625,000","625,000",Added
+LiabilityLimit,41,"650,000","650,000",Added
+LiabilityLimit,42,"675,000","675,000",Added
+LiabilityLimit,43,"700,000","700,000",Added
+LiabilityLimit,44,"725,000","725,000",Added
+LiabilityLimit,45,"750,000","750,000",Added
+LiabilityLimit,46,"775,000","775,000",Added
+LiabilityLimit,47,"800,000","800,000",Added
+LiabilityLimit,48,"825,000","825,000",Added
+LiabilityLimit,49,"850,000","850,000",Added
+LiabilityLimit,50,"875,000","875,000",Added
+LiabilityLimit,51,"900,000","900,000",Added
+LiabilityLimit,52,"925,000","925,000",Added
+LiabilityLimit,53,"950,000","950,000",Added
+LiabilityLimit,54,"975,000","975,000",Added
+LiabilityLimit,55,"1,000,000","1,000,000",Added
+LiabilityLimit,56,"1,500,000","1,500,000",Added
+LiabilityLimit,57,"2,000,000","2,000,000",Added
+LiabilityLimit,58,"2,500,000","2,500,000",Added
+LiabilityLimit,59,"3,000,000","3,000,000",Added
+LiabilityLimit,60,"3,500,000","3,500,000",Added
+LiabilityLimit,61,"4,000,000","4,000,000",Added
+LiabilityLimit,62,"4,500,000","4,500,000",Added
+LiabilityLimit,63,"5,000,000","5,000,000",Added
+LiabilityLimit,64,"5,500,000","5,500,000",Added
+LiabilityLimit,65,"6,000,000","6,000,000",Added
+LiabilityLimit,66,"6,500,000","6,500,000",Added
+LiabilityLimit,67,"7,000,000","7,000,000",Added
+LiabilityLimit,68,"7,500,000","7,500,000",Added
+LiabilityLimit,69,"8,000,000","8,000,000",Added
+LiabilityLimit,70,"8,500,000","8,500,000",Added
+LiabilityLimit,71,"9,000,000","9,000,000",Added
+LiabilityLimit,72,"9,500,000","9,500,000",Added
+LiabilityLimit,73,"10,000,000","10,000,000",Added
+LiabilityLimit,74,"15,000,000","15,000,000",Added
+LiabilityLimit,75,"20,000,000","20,000,000",Added
+LiabilityLimit,76,"25,000,000","25,000,000",Added
+LiabilityLimit,77,"30,000,000","30,000,000",Added
+LiabilityLimit,78,"35,000,000","35,000,000",Added
+LiabilityLimit,79,"40,000,000","40,000,000",Added
+LiabilityLimit,80,"45,000,000","45,000,000",Added
+LiabilityLimit,81,"50,000,000","50,000,000",Added
+LiabilityLimitEL,Sequence,Display Value,DataValue,Status
+LiabilityLimitEL,1,"100,000","100,000",Added
+LiabilityLimitEL,2,"500,000","500,000",Added
+LiabilityLimitEL,3,"1,000,000","1,000,000",Added
+LiabilityLimitEL,4,"2,000,000","2,000,000",Added
+LiabilityLimitEL,5,"3,000,000","3,000,000",Added
+LiabilityLimitEL,6,"4,000,000","4,000,000",Added
+LiabilityLimitEL,7,"5,000,000","5,000,000",Added
+LiabilityLimitEL,8,"6,000,000","6,000,000",Added
+LiabilityLimitEL,9,"7,000,000","7,000,000",Added
+LiabilityLimitEL,10,"8,000,000","8,000,000",Added
+LiabilityLimitEL,11,"9,000,000","9,000,000",Added
+LiabilityLimitEL,12,"10,000,000","10,000,000",Added
+LiabilityLimitELAggregate,Sequence,Display Value,DataValue,Status
+LiabilityLimitELAggregate,1,"500,000","500,000",Added
+LiabilityLimitELAggregate,2,"1,000,000","1,000,000",Added
+LiabilityLimitELAggregate,3,"2,000,000","2,000,000",Added
+LiabilityLimitELAggregate,4,"3,000,000","3,000,000",Added
+LiabilityLimitELAggregate,5,"4,000,000","4,000,000",Added
+LiabilityLimitELAggregate,6,"5,000,000","5,000,000",Added
+LiabilityLimitELAggregate,7,"6,000,000","6,000,000",Added
+LiabilityLimitELAggregate,8,"7,000,000","7,000,000",Added
+LiabilityLimitELAggregate,9,"8,000,000","8,000,000",Added
+LiabilityLimitELAggregate,10,"9,000,000","9,000,000",Added
+LiabilityLimitELAggregate,11,"10,000,000","10,000,000",Added
+LiabilityLimitNotApplicable,Sequence,Display Value,DataValue,Status
+LiabilityLimitNotApplicable,1,Not Applicable,Not Applicable,Added
+LiabilityLimitNotApplicable,2,"10,000","10,000",Added
+LiabilityLimitNotApplicable,3,"15,000","15,000",Added
+LiabilityLimitNotApplicable,4,"20,000","20,000",Added
+LiabilityLimitNotApplicable,5,"25,000","25,000",Added
+LiabilityLimitNotApplicable,6,"30,000","30,000",Added
+LiabilityLimitNotApplicable,7,"35,000","35,000",Added
+LiabilityLimitNotApplicable,8,"40,000","40,000",Added
+LiabilityLimitNotApplicable,9,"45,000","45,000",Added
+LiabilityLimitNotApplicable,10,"50,000","50,000",Added
+LiabilityLimitNotApplicable,11,"55,000","55,000",Added
+LiabilityLimitNotApplicable,12,"60,000","60,000",Added
+LiabilityLimitNotApplicable,13,"65,000","65,000",Added
+LiabilityLimitNotApplicable,14,"70,000","70,000",Added
+LiabilityLimitNotApplicable,15,"75,000","75,000",Added
+LiabilityLimitNotApplicable,16,"80,000","80,000",Added
+LiabilityLimitNotApplicable,17,"85,000","85,000",Added
+LiabilityLimitNotApplicable,18,"90,000","90,000",Added
+LiabilityLimitNotApplicable,19,"95,000","95,000",Added
+LiabilityLimitNotApplicable,20,"100,000","100,000",Added
+LiabilityLimitNotApplicable,21,"125,000","125,000",Added
+LiabilityLimitNotApplicable,22,"150,000","150,000",Added
+LiabilityLimitNotApplicable,23,"175,000","175,000",Added
+LiabilityLimitNotApplicable,24,"200,000","200,000",Added
+LiabilityLimitNotApplicable,25,"225,000","225,000",Added
+LiabilityLimitNotApplicable,26,"250,000","250,000",Added
+LiabilityLimitNotApplicable,27,"275,000","275,000",Added
+LiabilityLimitNotApplicable,28,"300,000","300,000",Added
+LiabilityLimitNotApplicable,29,"325,000","325,000",Added
+LiabilityLimitNotApplicable,30,"350,000","350,000",Added
+LiabilityLimitNotApplicable,31,"375,000","375,000",Added
+LiabilityLimitNotApplicable,32,"400,000","400,000",Added
+LiabilityLimitNotApplicable,33,"425,000","425,000",Added
+LiabilityLimitNotApplicable,34,"450,000","450,000",Added
+LiabilityLimitNotApplicable,35,"475,000","475,000",Added
+LiabilityLimitNotApplicable,36,"500,000","500,000",Added
+LiabilityLimitNotApplicable,37,"525,000","525,000",Added
+LiabilityLimitNotApplicable,38,"550,000","550,000",Added
+LiabilityLimitNotApplicable,39,"575,000","575,000",Added
+LiabilityLimitNotApplicable,40,"600,000","600,000",Added
+LiabilityLimitNotApplicable,41,"625,000","625,000",Added
+LiabilityLimitNotApplicable,42,"650,000","650,000",Added
+LiabilityLimitNotApplicable,43,"675,000","675,000",Added
+LiabilityLimitNotApplicable,44,"700,000","700,000",Added
+LiabilityLimitNotApplicable,45,"725,000","725,000",Added
+LiabilityLimitNotApplicable,46,"750,000","750,000",Added
+LiabilityLimitNotApplicable,47,"775,000","775,000",Added
+LiabilityLimitNotApplicable,48,"800,000","800,000",Added
+LiabilityLimitNotApplicable,49,"825,000","825,000",Added
+LiabilityLimitNotApplicable,50,"850,000","850,000",Added
+LiabilityLimitNotApplicable,51,"875,000","875,000",Added
+LiabilityLimitNotApplicable,52,"900,000","900,000",Added
+LiabilityLimitNotApplicable,53,"925,000","925,000",Added
+LiabilityLimitNotApplicable,54,"950,000","950,000",Added
+LiabilityLimitNotApplicable,55,"975,000","975,000",Added
+LiabilityLimitNotApplicable,56,"1,000,000","1,000,000",Added
+LiabilityLimitNotApplicable,57,"1,500,000","1,500,000",Added
+LiabilityLimitNotApplicable,58,"2,000,000","2,000,000",Added
+LiabilityLimitNotApplicable,59,"2,500,000","2,500,000",Added
+LiabilityLimitNotApplicable,60,"3,000,000","3,000,000",Added
+LiabilityLimitNotApplicable,61,"3,500,000","3,500,000",Added
+LiabilityLimitNotApplicable,62,"4,000,000","4,000,000",Added
+LiabilityLimitNotApplicable,63,"4,500,000","4,500,000",Added
+LiabilityLimitNotApplicable,64,"5,000,000","5,000,000",Added
+LiabilityLimitNotApplicable,65,"5,500,000","5,500,000",Added
+LiabilityLimitNotApplicable,66,"6,000,000","6,000,000",Added
+LiabilityLimitNotApplicable,67,"6,500,000","6,500,000",Added
+LiabilityLimitNotApplicable,68,"7,000,000","7,000,000",Added
+LiabilityLimitNotApplicable,69,"7,500,000","7,500,000",Added
+LiabilityLimitNotApplicable,70,"8,000,000","8,000,000",Added
+LiabilityLimitNotApplicable,71,"8,500,000","8,500,000",Added
+LiabilityLimitNotApplicable,72,"9,000,000","9,000,000",Added
+LiabilityLimitNotApplicable,73,"9,500,000","9,500,000",Added
+LiabilityLimitNotApplicable,74,"10,000,000","10,000,000",Added
+LiabilityLimitNotApplicable,75,"15,000,000","15,000,000",Added
+LiabilityLimitNotApplicable,76,"20,000,000","20,000,000",Added
+LiabilityLimitNotApplicable,77,"25,000,000","25,000,000",Added
+LiabilityLimitNotApplicable,78,"30,000,000","30,000,000",Added
+LiabilityLimitNotApplicable,79,"35,000,000","35,000,000",Added
+LiabilityLimitNotApplicable,80,"40,000,000","40,000,000",Added
+LiabilityLimitNotApplicable,81,"45,000,000","45,000,000",Added
+LiabilityLimitNotApplicable,82,"50,000,000","50,000,000",Added
+Limit,Sequence,Display Value,DataValue,Status
+Limit,1,"1,000,000","1,000,000",Added
+Limit,2,"2,000,000","2,000,000",Added
+Limit,3,"3,000,000","3,000,000",Added
+Limit,4,"4,000,000","4,000,000",Added
+Limit,5,"5,000,000","5,000,000",Added
+PolicyCoverageForm,Sequence,Display Value,DataValue,Status
+PolicyCoverageForm,1,Commercial Umbrella Coverage Form,Commercial Umbrella Coverage Form,Added
+PolicyCoverageForm,2,Commercial Excess Liability Coverage Form,Commercial Excess Liability Coverage Form,Added
+PolicyCoverageForm,3,Commercial Umbrella Coverage Form and Commercial Excess Liability Coverage Form,Commercial Umbrella Coverage Form and Commercial Excess Liability Coverage Form,Added
+RiskType,Sequence,Display Value,DataValue,Status
+RiskType,1,Apartment House,Apartment House,Added
+RiskType,2,Contracting,Contracting,Added
+RiskType,3,Industrial/Processing,Industrial/Processing,Added
+RiskType,4,Institutional,Institutional,Added
+RiskType,5,Mercantile,Mercantile,Added
+RiskType,6,Motel/Hotel,Motel/Hotel,Added
+RiskType,7,Office,Office,Added
+RiskType,8,Service,Service,Added
+RiskType,9,CPP not Providing Property and Premises/Operations Liability Coverage,CPP not Providing Property and Premises/Operations Liability Coverage,Added
+YesNo,Sequence,Display Value,DataValue,Status
+YesNo,1,No,No,Inherited
+YesNo,2,Yes,Yes,Inherited

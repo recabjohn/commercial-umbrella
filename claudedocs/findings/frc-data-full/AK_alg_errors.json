@@ -1,0 +1,1153 @@
+{
+ "ErrorMessages": [
+  {
+   "rule": "OnlyOnePharmacistsForm-CU2220OrCU2263CanBeAttached",
+   "cond": [
+    "IF",
+    "(",
+    "Count(Commercial Umbrella Druggists)",
+    "> 0.0",
+    "And Count(Commercial Umbrella Druggists Broadened Cov)",
+    "> 0.0"
+   ],
+   "msg": "Only One Pharmacists Form - CU 22 20 Or CU 22 63 Can Be Attached"
+  },
+  {
+   "rule": "OnlyOneFellowEmployeeAutoCoverageForm-CU2414OrCU2415CanBeAttached",
+   "cond": [
+    "IF",
+    "(",
+    "Count(Commercial Umbrella Fellow Employee Auto Cov)",
+    "> 0.0",
+    "And Count(Commercial Umbrella Fellow Employee Auto Coverage For Designated Employees Positions)",
+    "> 0.0"
+   ],
+   "msg": "Only One Fellow Employee Auto Coverage Form - CU 24 14 Or CU 24 15 Can Be Attached"
+  },
+  {
+   "rule": "OnlyOneExclusionDamageToWorkPerformedBySubcontractorsForm-CU2261OrCU2264CanBeAttached",
+   "cond": [
+    "IF",
+    "(",
+    "Count(Commercial Umbrella Exclusion Damage To Work Performed By Subcontractors On Your Behalf)",
+    "> 0.0",
+    "And Count(Commercial Umbrella Exclusion Damage To Work Performed By Subcontractors On Your Behalf Designated Sites Or Operations)",
+    "> 0.0"
+   ],
+   "msg": "Only One Exclusion Damage To Work Performed By Subcontractors Form - CU 22 61 Or CU 22 64 Can Be Attached"
+  },
+  {
+   "rule": "OnlyOneExclusionExplosionCollapseForm-CU2109OrCU2110CanBeAttached",
+   "cond": [
+    "IF",
+    "(",
+    "Count(Commercial Umbrella Exclusion Explosion Collapse And Underground Property Damage Hazard Specified Operations)",
+    "> 0.0",
+    "And Count(Commercial Umbrella Exclusion Explosion Collapse And Underground Property Damage Hazard Specified Operations Excepted)",
+    "> 0.0"
+   ],
+   "msg": "Only One Exclusion Explosion Collapse Form - CU 21 09 Or CU 21 10 Can Be Attached"
+  },
+  {
+   "rule": "CU2436Products-CompletedOperationsAggregateLimitOfInsuranceFormCannotBeAttachedWhenCU2429IsAttached",
+   "cond": [
+    "IF",
+    "(",
+    "Count(Commercial Umbrella Businessowners Liability Changes)",
+    "> 0.0",
+    "And Count(Commercial Umbrella Products Completed Operations Aggregate Limit Insurance)",
+    "> 0.0"
+   ],
+   "msg": "CU 24 36 Products-Completed Operations Aggregate Limit Of Insurance Form Cannot Be Attached When CU 24 29 Is Attached"
+  },
+  {
+   "rule": "OnlyOneFiduciaryForm-CU2406OrCU2204CanBeAttached",
+   "cond": [
+    "IF",
+    "(",
+    "Count(Commercial Umbrella Fiduciaries Fiduciary Interest)",
+    "> 0.0",
+    "And Count(Commercial Umbrella Exclusion Fiduciary Or Representative Liability Of Financial Institutions)",
+    "> 0.0"
+   ],
+   "msg": "Only One Fiduciary Form - CU 24 06 Or CU 22 04 Can Be Attached"
+  },
+  {
+   "rule": "RepossessedAutosFormInvalidWithFiduciaries-FiduciaryInterestForm",
+   "cond": [
+    "IF",
+    "(",
+    "Count(Commercial Umbrella Fiduciaries Fiduciary Interest)",
+    "> 0.0",
+    "And Count(Commercial Umbrella Repossessed Autos)",
+    "> 0.0"
+   ],
+   "msg": "Repossessed Autos Form Invalid With Fiduciaries - Fiduciary Interest Form"
+  },
+  {
+   "rule": "RepossessedAutosFormInvalidWithExclusion-FinancialServicesForm",
+   "cond": [
+    "IF",
+    "(",
+    "Count(Commercial Umbrella Exclusion Financial Services)",
+    "> 0.0",
+    "And Count(Commercial Umbrella Repossessed Autos)",
+    "> 0.0"
+   ],
+   "msg": "Repossessed Autos Form Invalid With Exclusion - Financial Services Form"
+  },
+  {
+   "rule": "RepossessedAutosFormInvalidWithFinancialInstitutionsReportingProvisionForm",
+   "cond": [
+    "IF",
+    "(",
+    "Count(Commercial Umbrella Financial Institutions Reporting Provision And Limitation To Fiduciary Or Representative Interest)",
+    "> 0.0",
+    "And Count(Commercial Umbrella Repossessed Autos)",
+    "> 0.0"
+   ],
+   "msg": "Repossessed Autos Form Invalid With Financial Institutions Reporting Provision Form"
+  },
+  {
+   "rule": "RepossessedAutosFormInvalidWithExclusion-FiduciaryOrRepresentativeLiabilityForm",
+   "cond": [
+    "IF",
+    "(",
+    "Count(Commercial Umbrella Exclusion Fiduciary Or Representative Liability Of Financial Institutions)",
+    "> 0.0",
+    "And Count(Commercial Umbrella Repossessed Autos)",
+    "> 0.0"
+   ],
+   "msg": "Repossessed Autos Form Invalid With Exclusion - Fiduciary Or Representative Liability Form"
+  },
+  {
+   "rule": "OnlyOneSeedMerchantsCoverageForErroneousDeliveryForm-CU2410OrCU2411CanBeAttached",
+   "cond": [
+    "IF",
+    "(",
+    "Count(Commercial Umbrella Seed Merchants Coverage For Erroneous Delivery Or Mixture And Resulting Failure Of Seed To Germinate)",
+    "> 0.0",
+    "And Count(Commercial Umbrella Seed Merchants Coverage For Erroneous Delivery Or Mixture Resulting Failure Of Seed To Germinate Not Included)",
+    "> 0.0"
+   ],
+   "msg": "Only One Seed Merchants Coverage For Erroneous Delivery Form - CU 24 10 Or CU 24 11 Can Be Attached"
+  },
+  {
+   "rule": "OnlyOneSeedMerchantsCoverageOrExclusionForm-CU2410OrCU2222CanBeAttached",
+   "cond": [
+    "IF",
+    "(",
+    "Count(Commercial Umbrella Seed Merchants Coverage For Erroneous Delivery Or Mixture And Resulting Failure Of Seed To Germinate)",
+    "> 0.0",
+    "And Count(Commercial Umbrella Exclusion Erroneous Delivery Or Mixture And Resulting Failure Of Seed To Germinate Seed Merchants)",
+    "> 0.0"
+   ],
+   "msg": "Only One Seed Merchants Coverage Or Exclusion Form - CU 24 10 Or CU 22 22 Can Be Attached"
+  },
+  {
+   "rule": "OnlyOneSeedMerchantsCoverageOrExclusionForm-CU2411OrCU2222CanBeAttached",
+   "cond": [
+    "IF",
+    "(",
+    "Count(Commercial Umbrella Seed Merchants Coverage For Erroneous Delivery Or Mixture Resulting Failure Of Seed To Germinate Not Included)",
+    "> 0.0",
+    "And Count(Commercial Umbrella Exclusion Erroneous Delivery Or Mixture And Resulting Failure Of Seed To Germinate Seed Merchants)",
+    "> 0.0"
+   ],
+   "msg": "Only One Seed Merchants Coverage Or Exclusion Form - CU 24 11 Or CU 22 22 Can Be Attached"
+  },
+  {
+   "rule": "CU2160CannotBeAttachedWithoutCU0162,CU0167,OrCU0181",
+   "cond": [
+    "IF",
+    "(",
+    "( Policy Coverage Form",
+    "Is Equal To \"Commercial Umbrella Coverage Form\"",
+    "Or Policy Coverage Form",
+    "Is Equal To \"Commercial Umbrella Coverage Form and Commercial Excess Liability Coverage Form\"",
+    ")",
+    "And Terrorism Coverage",
+    "Is Equal To \"No\"",
+    "IF",
+    "(",
+    "Count(Commercial Umbrella Amended Terrorism Coverage Covered Autos)",
+    "Is Equal To 1.0",
+    "And Count(Commercial Umbrella Exclusion Of Certified Acts Of Terrorism)",
+    "+ Count(Commercial Umbrella Exclusion Of Punitive Damages Related To Certified Act Of Terrorism)",
+    "+ Count(Commercial Umbrella Exclusion Of Certified Acts Of Nuclear Biological Chemical Terrorism Cap Losses Certified Acts)",
+    "Is Equal To 0.0"
+   ],
+   "msg": "CU 21 60 Cannot Be Attached Without CU 01 62, CU 01 67, Or CU 01 81"
+  },
+  {
+   "rule": "CU0195CannotBeAttachedWithoutCU2130OrCU0163",
+   "cond": [
+    "IF",
+    "(",
+    "( Policy Coverage Form",
+    "Is Equal To \"Commercial Umbrella Coverage Form\"",
+    "Or Policy Coverage Form",
+    "Is Equal To \"Commercial Umbrella Coverage Form and Commercial Excess Liability Coverage Form\"",
+    ")",
+    "And Terrorism Coverage",
+    "Is Equal To \"Yes\"",
+    "IF",
+    "(",
+    "Count(Commercial Umbrella Cap On Losses From Certified Acts Of Terrorism)",
+    "Is Equal To 0.0",
+    "And Count(Commercial Umbrella Limited Terrorism Exclusion Other Than Certified Acts Cap Losses From Certified Acts Of Terrorism)",
+    "Is Equal To 0.0",
+    "And Count(Commercial Umbrella Auto Exclusion Terrorsim Cov)",
+    "Is Equal To 1.0"
+   ],
+   "msg": "CU 01 95 Cannot Be Attached Without CU 21 30 Or CU 01 63"
+  },
+  {
+   "rule": "CU0195CannotBeAttachedWithoutCU0181",
+   "cond": [
+    "IF",
+    "(",
+    "( Policy Coverage Form",
+    "Is Equal To \"Commercial Umbrella Coverage Form\"",
+    "Or Policy Coverage Form",
+    "Is Equal To \"Commercial Umbrella Coverage Form and Commercial Excess Liability Coverage Form\"",
+    ")",
+    "And Terrorism Coverage",
+    "Is Equal To \"No\"",
+    "IF",
+    "(",
+    "Count(Commercial Umbrella Exclusion Of Certified Acts Of Nuclear Biological Chemical Terrorism Cap Losses Certified Acts)",
+    "Is Equal To 0.0",
+    "And Count(Commercial Umbrella Exclusion Of Certified Acts Of Terrorism And Other Acts Of Terrorism)",
+    "Is Equal To 0.0",
+    "And Count(Commercial Umbrella Auto Exclusion Terrorsim Cov)",
+    "Is Equal To 1.0"
+   ],
+   "msg": "CU 01 95 Cannot Be Attached Without CU 01 81"
+  },
+  {
+   "rule": "OnlyOneAutoCoverageAmendedOrExclusionTerrorismForm-CX2160OrCX0195CanBeAttached",
+   "cond": [
+    "IF",
+    "(",
+    "Count(Commercial Umbrella CX Auto Coverage Amended Terrorism Provisions)",
+    "> 0.0",
+    "And Count(Commercial Umbrella CX Auto Coverage Exclusion Of Terrorism)",
+    "> 0.0"
+   ],
+   "msg": "Only One Auto Coverage Amended Or Exclusion Terrorism Form - CX 21 60 Or CX 01 95 Can Be Attached"
+  },
+  {
+   "rule": "AnExclusionOfCertifiedActsOfTerrorismFormCannotBeAttachedToAPolicyWhenCertifiedActsOfTerrorismCoverageIsAccepted",
+   "cond": [
+    "IF",
+    "(",
+    "Terrorism Coverage",
+    "Is Equal To \"Yes\"",
+    "And",
+    "( Count(Commercial Umbrella CX Exclusion Of Certified Acts Of Terrorism)",
+    "> 0.0",
+    "Or Count(Commercial Umbrella CX Exclusion Of Certified Acts Of Terrorism And Exclusion Of Other Acts Of Terrorism Committed Outside US)",
+    "> 0.0",
+    "Or Count(Commercial Umbrella CX Exclusion Of Certified Acts Of Nuclear Biological Chemical Terrorism Cap Losses Certified Acts)",
+    "> 0.0",
+    "Or Count(Commercial Umbrella Exclusion Of Certified Acts Of Terrorism)",
+    "> 0.0",
+    "Or Count(Commercial Umbrella Exclusion Of Certified Acts Of Terrorism And Other Acts Of Terrorism)",
+    "> 0.0",
+    "Or Count(Commercial Umbrella Exclusion Of Certified Acts Of Nuclear Biological Chemical Terrorism Cap Losses Certified Acts)",
+    "> 0.0",
+    ")"
+   ],
+   "msg": "An Exclusion Of Certified Acts Of Terrorism Form Cannot Be Attached To A Policy When Certified Acts Of Terrorism Coverage Is Accepted"
+  },
+  {
+   "rule": "ACertifiedActsOfTerrorismFormMustBeAttachedToThePolicyWhenCoverageIsAccepted",
+   "cond": [
+    "IF",
+    "(",
+    "Terrorism Coverage",
+    "Is Equal To \"Yes\"",
+    "And Count(Commercial Umbrella Cap On Losses From Certified Acts Of Terrorism)",
+    "Is Equal To 0.0",
+    "And Count(Commercial Umbrella Limited Terrorism Exclusion Other Than Certified Acts Cap Losses From Certified Acts Of Terrorism)",
+    "Is Equal To 0.0",
+    "And Count(Commercial Umbrella CX Cap On Losses From Certified Acts Of Terrorism)",
+    "Is Equal To 0.0",
+    "And Count(Commercial Umbrella CX Exclusion Of Other Acts Of Terrorism Committed Outside US Cap On Losses From Certified Acts Of Terrorism)",
+    "Is Equal To 0.0"
+   ],
+   "msg": "A Certified Acts Of Terrorism Form Must Be Attached To The Policy When Coverage Is Accepted"
+  },
+  {
+   "rule": "ACertifiedActsOfTerrorismFormCannotBeAttachedToAPolicyWhenCertifiedActsOfTerrorismCoverageIsRejected",
+   "cond": [
+    "IF",
+    "(",
+    "Terrorism Coverage",
+    "Is Equal To \"No\"",
+    "And",
+    "( Count(Commercial Umbrella CX Cap On Losses From Certified Acts Of Terrorism)",
+    "> 0.0",
+    "Or Count(Commercial Umbrella CX Exclusion Of Other Acts Of Terrorism Committed Outside US Cap On Losses From Certified Acts Of Terrorism)",
+    "> 0.0",
+    "Or Count(Commercial Umbrella Cap On Losses From Certified Acts Of Terrorism)",
+    "> 0.0",
+    "Or Count(Commercial Umbrella Limited Terrorism Exclusion Other Than Certified Acts Cap Losses From Certified Acts Of Terrorism)",
+    "> 0.0",
+    ")"
+   ],
+   "msg": "A Certified Acts Of Terrorism Form Cannot Be Attached To A Policy When Certified Acts Of Terrorism Coverage Is Rejected"
+  },
+  {
+   "rule": "AnExclusionOfCertifiedActsOfTerrorismFormMustBeAttachedToThePolicyWhenCoverageIsRejected",
+   "cond": [
+    "IF",
+    "(",
+    "Terrorism Coverage",
+    "Is Equal To \"No\"",
+    "And Count(Commercial Umbrella Exclusion Of Certified Acts Of Terrorism)",
+    "Is Equal To 0.0",
+    "And Count(Commercial Umbrella Exclusion Of Certified Acts Of Terrorism And Other Acts Of Terrorism)",
+    "Is Equal To 0.0",
+    "And Count(Commercial Umbrella Exclusion Of Certified Acts Of Nuclear Biological Chemical Terrorism Cap Losses Certified Acts)",
+    "Is Equal To 0.0",
+    "And Count(Commercial Umbrella CX Exclusion Of Certified Acts Of Terrorism)",
+    "Is Equal To 0.0",
+    "And Count(Commercial Umbrella CX Exclusion Of Certified Acts Of Terrorism And Exclusion Of Other Acts Of Terrorism Committed Outside US)",
+    "Is Equal To 0.0",
+    "And Count(Commercial Umbrella CX Exclusion Of Certified Acts Of Nuclear Biological Chemical Terrorism Cap Losses Certified Acts)",
+    "Is Equal To 0.0"
+   ],
+   "msg": "An Exclusion Of Certified Acts Of Terrorism Form Must Be Attached To The Policy When Coverage Is Rejected"
+  },
+  {
+   "rule": "TerrorismFormsCX2129AndCX2132CannotBeAttachedToAPolicyWhenTerrorismRiskInsuranceProgram(TRIP)IsInEffectThroughoutThePolicyTermOrWhenTerrorismRiskInsuranceProgram(TRIP)IsNotInEffectThroughoutThePolicyTermOrWhenTRIAHasBeenExtended",
+   "cond": [
+    "IF",
+    "(",
+    "Policy Coverage Form",
+    "Is Equal To \"Commercial Excess Liability Coverage Form\"",
+    "Or Policy Coverage Form",
+    "Is Equal To \"Commercial Umbrella Coverage Form and Commercial Excess Liability Coverage Form\"",
+    "IF",
+    "(",
+    "(",
+    "( TRIP Terminates Before Expiration Date",
+    "Is Equal To \"No\"",
+    "Or TRIA Extended",
+    "Is Equal To \"Yes\"",
+    ")",
+    "Or",
+    "( TRIA Expiration Date",
+    "Not Equal To null",
+    "And TRIA Expiration Date",
+    "Not Equal To \"\"",
+    "And TRIP Terminates Before Expiration Date",
+    "Is Equal To \"Yes\"",
+    "And TRIA Expiration Date",
+    "< Policy Effective Date",
+    ")",
+    ")",
+    "And",
+    "( Count(Commercial Umbrella CX Conditional Exclusion Of Terrorism Relating To Disposition Of TRIA)",
+    "> 0.0",
+    "Or Count(Commercial Umbrella CX Conditional Exclusion Of Terrorism Nuclear Biological Chemical Relating To Disposition Of TRIA)",
+    "> 0.0",
+    ")"
+   ],
+   "msg": "Terrorism Forms CX 21 29 And CX 21 32 Cannot Be Attached To A Policy When Terrorism Risk Insurance Program (TRIP) Is In Effect Throughout The Policy Term Or When Terrorism Risk Insurance Program (TRIP) Is Not In Effect Throughout The Policy Term Or When TRIA Has Been Extended"
+  },
+  {
+   "rule": "TerrorismFormsCU2144AndCU2145CannotBeAttachedToAPolicyWhenTerrorismRiskInsuranceProgram(TRIP)IsInEffectThroughoutThePolicyTermOrWhenTerrorismRiskInsuranceProgram(TRIP)IsNotInEffectThroughoutThePolicyTermOrWhenTRIAHasBeenExtended",
+   "cond": [
+    "IF",
+    "(",
+    "Policy Coverage Form",
+    "Is Equal To \"Commercial Umbrella Coverage Form\"",
+    "Or Policy Coverage Form",
+    "Is Equal To \"Commercial Umbrella Coverage Form and Commercial Excess Liability Coverage Form\"",
+    "IF",
+    "(",
+    "(",
+    "( TRIP Terminates Before Expiration Date",
+    "Is Equal To \"No\"",
+    "Or TRIA Extended",
+    "Is Equal To \"Yes\"",
+    ")",
+    "Or",
+    "( TRIA Expiration Date",
+    "Not Equal To null",
+    "And TRIA Expiration Date",
+    "Not Equal To \"\"",
+    "And TRIP Terminates Before Expiration Date",
+    "Is Equal To \"Yes\"",
+    "And TRIA Expiration Date",
+    "< Policy Effective Date",
+    ")",
+    ")",
+    "And",
+    "( Count(Commercial Umbrella Conditional Exclusion Of Terrorism Disposition Of Act 2002)",
+    "> 0.0",
+    "Or Count(Commercial Umbrella Conditional Exclusion Of Terrorism Nuclear Biological Chemical Disposition Of Act 2002)",
+    "> 0.0",
+    ")"
+   ],
+   "msg": "Terrorism Forms CU 21 44 And CU 21 45 Cannot Be Attached To A Policy When Terrorism Risk Insurance Program (TRIP) Is In Effect Throughout The Policy Term Or When Terrorism Risk Insurance Program (TRIP) Is Not In Effect Throughout The Policy Term Or When TRIA Has Been Extended"
+  },
+  {
+   "rule": "TerrorismFormsCU2146AndCU2147CannotBeAttachedToAPolicyWhenTerrorismRiskInsuranceProgram(TRIP)IsInEffectOrWhenTRIAHasBeenExtended",
+   "cond": [
+    "IF",
+    "(",
+    "Policy Coverage Form",
+    "Is Equal To \"Commercial Umbrella Coverage Form\"",
+    "Or Policy Coverage Form",
+    "Is Equal To \"Commercial Umbrella Coverage Form and Commercial Excess Liability Coverage Form\"",
+    "IF",
+    "(",
+    "( TRIA Expiration Date",
+    "Not Equal To null",
+    "And TRIA Expiration Date",
+    "Not Equal To \"\"",
+    "And TRIP Terminates Before Expiration Date",
+    "Is Equal To \"Yes\"",
+    "And TRIA Expiration Date",
+    "> Policy Effective Date",
+    "Or TRIA Extended",
+    "Is Equal To \"Yes\"",
+    "Or TRIP Terminates Before Expiration Date",
+    "Is Equal To \"No\"",
+    ")",
+    "And",
+    "( Count(Commercial Umbrella Exclusion Of Terrorism)",
+    "> 0.0",
+    "Or Count(Commercial Umbrella Exclusion Of Terrorism Nuclear Biological Chemical Terrorism)",
+    "> 0.0",
+    ")"
+   ],
+   "msg": "Terrorism Forms CU 21 46 And CU 21 47 Cannot Be Attached To A Policy When Terrorism Risk Insurance Program (TRIP) Is In Effect Or When TRIA Has Been Extended"
+  },
+  {
+   "rule": "ADisclosureOfPremiumForm-IL0998OrIL0999MustBeAttachedWhenAConditionalExclusionTerrorismFormIsAttached",
+   "cond": [
+    "IF",
+    "(",
+    "Count(Commercial Umbrella Conditional Exclusion Of Terrorism Disposition Of Act 2002)",
+    "> 0.0",
+    "Or Count(Commercial Umbrella Conditional Exclusion Of Terrorism Nuclear Biological Chemical Disposition Of Act 2002)",
+    "> 0.0",
+    "Or Count(Commercial Umbrella CX Conditional Exclusion Of Terrorism Relating To Disposition Of TRIA)",
+    "> 0.0",
+    "Or Count(Commercial Umbrella CX Conditional Exclusion Of Terrorism Nuclear Biological Chemical Relating To Disposition Of TRIA)",
+    "> 0.0",
+    "IF",
+    "(",
+    "Count(Commercial Umbrella Disclosure Of Premium Estimated Premium Certified Acts Terrorism Pursuant Terrorism Act 2002)",
+    "Is Equal To 0.0",
+    "And Count(Commercial Umbrella Disclosure Of Premium Through 123105 Certified Acts Terrorism Pursuant Terrorism Act 2002)",
+    "Is Equal To 0.0"
+   ],
+   "msg": "A Disclosure Of Premium Form - IL 09 98 Or IL 09 99 Must Be Attached When A Conditional Exclusion Terrorism Form Is Attached"
+  },
+  {
+   "rule": "ADisclosureOfPremiumForm-IL0998OrIL0999CannotBeAttachedWhenNoConditionalExclusionTerrorismFormIsAttached",
+   "cond": [
+    "IF",
+    "(",
+    "Count(Commercial Umbrella Conditional Exclusion Of Terrorism Disposition Of Act 2002)",
+    "Is Equal To 0.0",
+    "And Count(Commercial Umbrella Conditional Exclusion Of Terrorism Nuclear Biological Chemical Disposition Of Act 2002)",
+    "Is Equal To 0.0",
+    "And Count(Commercial Umbrella CX Conditional Exclusion Of Terrorism Relating To Disposition Of TRIA)",
+    "Is Equal To 0.0",
+    "And Count(Commercial Umbrella CX Conditional Exclusion Of Terrorism Nuclear Biological Chemical Relating To Disposition Of TRIA)",
+    "Is Equal To 0.0",
+    "IF",
+    "(",
+    "Count(Commercial Umbrella Disclosure Of Premium Estimated Premium Certified Acts Terrorism Pursuant Terrorism Act 2002)",
+    "> 0.0",
+    "Or Count(Commercial Umbrella Disclosure Of Premium Through 123105 Certified Acts Terrorism Pursuant Terrorism Act 2002)",
+    "> 0.0"
+   ],
+   "msg": "A Disclosure Of Premium Form - IL 09 98 Or IL 09 99 Cannot Be Attached When No Conditional Exclusion Terrorism Form Is Attached"
+  },
+  {
+   "rule": "UnderlyingPolicyInformationMustBeEntered",
+   "cond": [
+    "IF",
+    "(",
+    "Count(Commercial Umbrella Aircraft Liability)",
+    "+ Count(Commercial Umbrella Auto Dealers)",
+    "+ Count(Commercial Umbrella BOP)",
+    "+ Count(Commercial Umbrella Commercial Auto)",
+    "+ Count(Commercial Umbrella Employers Liability)",
+    "+ Count(Commercial Umbrella General Liability)",
+    "+ Count(Commercial Umbrella Liquor)",
+    "+ Count(Commercial Umbrella Other Liability)",
+    "+ Count(Commercial Umbrella Watercraft)",
+    "Is Equal To 0.0"
+   ],
+   "msg": "Underlying Policy Information Must Be Entered"
+  },
+  {
+   "rule": "OnlyOneExclusionAccessOrDisclosureOfInformationForm-CU2187OrCU2188CanBeAttached",
+   "cond": [
+    "IF",
+    "(",
+    "Count(Commercial Umbrella Exclusion Access Or Disclosure Of Confidential Or Personal Info And Data Related Liab Lmtd BI Excptn Not Incldd)",
+    "> 0.0",
+    "And Count(Commercial Umbrella Exclusion Access Or Disclosure Of Confidential Or Personal Information Cov B Only)",
+    "> 0.0"
+   ],
+   "msg": "Only One Exclusion Access Or Disclosure Of Information Form - CU 21 87 Or CU 21 88 Can Be Attached"
+  },
+  {
+   "rule": "TheTRIAExpirationDateShouldNotBeGreaterThanThePolicyExpirationDate",
+   "cond": [
+    "IF",
+    "(",
+    "TRIA Expiration Date",
+    "Not Equal To null",
+    "And TRIA Expiration Date",
+    "Not Equal To \"\"",
+    "And Terrorism Coverage",
+    "Is Equal To \"Yes\"",
+    "And TRIP Terminates Before Expiration Date",
+    "Is Equal To \"Yes\"",
+    "And TRIA Extended",
+    "Is Equal To \"No\"",
+    "And TRIA Expiration Date",
+    ">= Ancestor::*[name(.)='Policy' Or Name(.)='Quote']/Exp Date"
+   ],
+   "msg": "The TRIA Expiration Date Should Not Be Greater Than The Policy Expiration Date"
+  },
+  {
+   "rule": "CU2225AndCU2226CannotBeAttachedOnSamePolicy",
+   "cond": [
+    "IF",
+    "(",
+    "Count(Commercial Umbrella Emergency Vehicles Volunteer Firefighters And Workers Injuries Excluded)",
+    "> 0.0",
+    "And Count(Commercial Umbrella Emergency Vehicles Fellow Volunteer Firefighters And Workers Injuries Exclusion Buyback)",
+    "> 0.0"
+   ],
+   "msg": "CU 22 25 And CU 22 26 Cannot Be Attached On Same Policy"
+  },
+  {
+   "rule": "CU2403AndCU2401CannotBeAttachedOnSamePolicy",
+   "cond": [
+    "IF",
+    "(",
+    "Count(Commercial Umbrella Waiver Of Transfer Of Rights Of Recovery Against Others To Us Waiver Of Subrogation)",
+    "> 0.0",
+    "And Count(Commercial Umbrella Waiver Of Transfer Of Rights Of Recovery Against Others To Us)",
+    "> 0.0"
+   ],
+   "msg": "CU 24 03 And CU 24 01 Cannot Be Attached On Same Policy"
+  },
+  {
+   "rule": "CU2436AndCU2434CannotBeAttachedOnSamePolicy",
+   "cond": [
+    "IF",
+    "(",
+    "Count(Commercial Umbrella Products Completed Operations Aggregate Limit Insurance)",
+    "> 0.0",
+    "And Count(Commercial Umbrella Auto Dealers Products And Work Aggregate Limit Of Insurance)",
+    "> 0.0"
+   ],
+   "msg": "CU 24 36 And CU 24 34 Cannot Be Attached On Same Policy"
+  },
+  {
+   "rule": "CU2429OrCU2503MustBeAttachedForBusinessowners",
+   "cond": [
+    "IF",
+    "(",
+    "( Policy Coverage Form",
+    "Is Equal To \"Commercial Umbrella Coverage Form\"",
+    "Or Policy Coverage Form",
+    "Is Equal To \"Commercial Umbrella Coverage Form and Commercial Excess Liability Coverage Form\"",
+    ")",
+    "And Count(Commercial Umbrella Businessowners Liability Changes)",
+    "Is Equal To 0.0",
+    "And Count(Commercial Umbrella Businessowners Liability Changes Including Prod Compld Operations Aggregate Limit Of Insurance)",
+    "Is Equal To 0.0",
+    "And Count(Commercial Umbrella BOP)",
+    "> 0.0"
+   ],
+   "msg": "CU 24 29 Or CU 25 03 Must Be Attached For Businessowners"
+  },
+  {
+   "rule": "OnlyOneOfCU2429OrCU2503CanBeAttachedForBusinessowners",
+   "cond": [
+    "IF",
+    "(",
+    "Count(Commercial Umbrella Businessowners Liability Changes)",
+    "> 0.0",
+    "And Count(Commercial Umbrella Businessowners Liability Changes Including Prod Compld Operations Aggregate Limit Of Insurance)",
+    "> 0.0"
+   ],
+   "msg": "Only One Of CU 24 29 Or CU 25 03 Can Be Attached For Businessowners"
+  },
+  {
+   "rule": "CU2104AndCU2481CannotBeAttachedOnTheSamePolicy",
+   "cond": [
+    "IF",
+    "(",
+    "Count(Commercial Umbrella Exclusion New Entities)",
+    "> 0.0",
+    "And Count(Commercial Umbrella Automatic Insured Status For Newly Acquired Or Formed Limited Liability Companies)",
+    "> 0.0"
+   ],
+   "msg": "CU 21 04 And CU 24 81 Cannot Be Attached On The Same Policy"
+  },
+  {
+   "rule": "OnlyOneAmendmentOfLiquorLiabilityExclusionForm-CU2113,CU2114,OrCU3413CanBeAttached",
+   "cond": [
+    "IF",
+    "(",
+    "Count(Commercial Umbrella Amendment Of Liquor Liability Exclusion)",
+    "> 0.0",
+    "And Count(Commercial Umbrella Amendment Of Liquor Liability Exclusion Exception Scheduled Activities)",
+    "> 0.0",
+    "And Count(Commercial Umbrella Amendment Of Liquor Liability Exclusion Limited Exception For Bring Your Own Alcohol)",
+    "> 0.0"
+   ],
+   "msg": "Only One Amendment Of Liquor Liability Exclusion Form - CU 21 13, CU 21 14, Or CU 34 13 Can Be Attached"
+  },
+  {
+   "rule": "OnlyOnePollutionExclusionForm-CU2180,CU2153,CU2154OrCU3426CanBeAttached",
+   "cond": [
+    "IF",
+    "(",
+    "Count(Commercial Umbrella Total Pollution Exclusion Endorsement)",
+    "+ Count(Commercial Umbrella Total Pollution Exclusion Hostile Fire Exception)",
+    "+ Count(Commercial Umbrella Total Pollution Exclusion Building Heating Cooling Dehumidifying Equip Exception Hostile Fire Exception)",
+    "+ Count(Commercial Umbrella Exclusion Pollution Limited Exception For Covered Autos)",
+    "> 1.0"
+   ],
+   "msg": "Only One Pollution Exclusion Form - CU 21 80, CU 21 53, CU 21 54 Or CU 34 26 Can Be Attached"
+  },
+  {
+   "rule": "CU2187CanNotBeAttachedWithCU2186,CU2188,CU0402,CU0454OrCU0455",
+   "cond": [
+    "IF",
+    "(",
+    "( Count(Commercial Umbrella Exclusion Access Or Disclosure Of Confidential Or Personal Info And Data Related Liab With Lmtd BI Excptn)",
+    "> 0.0",
+    "Or Count(Commercial Umbrella Exclusion Access Or Disclosure Of Confidential Or Personal Information Cov B Only)",
+    "> 0.0",
+    "Or Count(Commercial Umbrella Electronic Data Liability Endorsement)",
+    "> 0.0",
+    "Or Count(Commercial Umbrella Electronic Data Liability Limited Bodily Injury Exception Not Included)",
+    "> 0.0",
+    "Or Count(Commercial Umbrella EDL Coverage Cov A With Access Or Disclosure Of Confidential Or Personal Information Exclusion Cov B)",
+    "> 0.0",
+    ")",
+    "And Count(Commercial Umbrella Exclusion Access Or Disclosure Of Confidential Or Personal Info And Data Related Liab Lmtd BI Excptn Not Incldd)",
+    "> 0.0"
+   ],
+   "msg": "CU 21 87 Can Not Be Attached With CU 21 86, CU 21 88, CU 04 02, CU 04 54 Or CU 04 55"
+  },
+  {
+   "rule": "CU2188CanNotBeAttachedWithCU2186,CU2187,CU0402,CU0454OrCU0455",
+   "cond": [
+    "IF",
+    "(",
+    "( Count(Commercial Umbrella Exclusion Access Or Disclosure Of Confidential Or Personal Info And Data Related Liab With Lmtd BI Excptn)",
+    "> 0.0",
+    "Or Count(Commercial Umbrella Exclusion Access Or Disclosure Of Confidential Or Personal Info And Data Related Liab Lmtd BI Excptn Not Incldd)",
+    "> 0.0",
+    "Or Count(Commercial Umbrella Electronic Data Liability Endorsement)",
+    "> 0.0",
+    "Or Count(Commercial Umbrella Electronic Data Liability Limited Bodily Injury Exception Not Included)",
+    "> 0.0",
+    "Or Count(Commercial Umbrella EDL Coverage Cov A With Access Or Disclosure Of Confidential Or Personal Information Exclusion Cov B)",
+    "> 0.0",
+    ")",
+    "And Count(Commercial Umbrella Exclusion Access Or Disclosure Of Confidential Or Personal Information Cov B Only)",
+    "> 0.0"
+   ],
+   "msg": "CU 21 88 Can Not Be Attached With CU 21 86, CU 21 87, CU 04 02, CU 04 54 Or CU 04 55"
+  },
+  {
+   "rule": "OnlyOneGeneticallyModifiedOrganismExclusionEndorsementCanBeAttached",
+   "cond": [
+    "IF",
+    "(",
+    "Count(Commercial Umbrella Genetically Modified Organism Exclusion)",
+    "> 0.0",
+    "And Count(Commercial Umbrella Genetically Modified Organism Exclusion For Designated Operations Or Products)",
+    "> 0.0"
+   ],
+   "msg": "Only One Genetically Modified Organism Exclusion Endorsement Can Be Attached"
+  },
+  {
+   "rule": "OnlyOneOfCU3422,CU3423OrCU3424CanBeAttachedToThePolicy",
+   "cond": [
+    "IF",
+    "(",
+    "Count(Commercial Umbrella Cannabis Exclusion)",
+    "+ Count(Commercial Umbrella Cannabis Exclusion With Hemp Exception)",
+    "+ Count(Commercial Umbrella Cannabis Exclusion With Hemp And Lessors Risk Exception)",
+    "> 1.0"
+   ],
+   "msg": "Only One Of CU 34 22, CU 34 23 Or CU 34 24 Can Be Attached To The Policy"
+  },
+  {
+   "rule": "OnlyOneElectronicSmokingDeviceExclusionEndorsementCU3420OrCU3421CanBeAttached",
+   "cond": [
+    "IF",
+    "(",
+    "Count(Commercial Umbrella Excl All Hazards In Connctn With An Electronic Smoking Dev Its Vapor Component Parts Equipmt And Accessories)",
+    "> 0.0",
+    "And Count(Commercial Umbrella Exclusion Health Hazards Electronic Smoking Device Vapor)",
+    "> 0.0"
+   ],
+   "msg": "Only One Electronic Smoking Device Exclusion Endorsement CU 34 20 Or CU 34 21 Can Be Attached"
+  },
+  {
+   "rule": "CU2480AndCU2401CannotBeAttachedOnSamePolicy",
+   "cond": [
+    "IF",
+    "(",
+    "Count(Commercial Umbrella Waiver Of Transfer Of Rights Of Recovery Against Others To Us Waiver Of Subrogation Automatic)",
+    "> 0.0",
+    "And Count(Commercial Umbrella Waiver Of Transfer Of Rights Of Recovery Against Others To Us Waiver Of Subrogation)",
+    "> 0.0"
+   ],
+   "msg": "CU 24 80 And CU 24 01 Cannot Be Attached On Same Policy"
+  },
+  {
+   "rule": "OnlyOneElectronicDataLiabilityEndorsementOfCU0402,CU0454OrCU0455CanBeAttachedToThePolicy",
+   "cond": [
+    "IF",
+    "(",
+    "Count(Commercial Umbrella Electronic Data Liability Endorsement)",
+    "+ Count(Commercial Umbrella Electronic Data Liability Limited Bodily Injury Exception Not Included)",
+    "+ Count(Commercial Umbrella EDL Coverage Cov A With Access Or Disclosure Of Confidential Or Personal Information Exclusion Cov B)",
+    "> 1.0"
+   ],
+   "msg": "Only One Electronic Data Liability Endorsement Of CU 04 02, CU 04 54 Or CU 04 55 Can Be Attached To The Policy"
+  },
+  {
+   "rule": "CU2186,CU2187OrCU2188CannotBeAttachedWithCU0402,CU0454OrCU0455",
+   "cond": [
+    "IF",
+    "(",
+    "EDL Endorsements_1",
+    "> 0.0",
+    "And Exclusion Access Or Disclosure Of Confidential Or Personal Info Endorsements_1",
+    "> 0.0"
+   ],
+   "msg": "CU 21 86, CU 21 87 Or CU 21 88 Cannot Be Attached With CU 04 02, CU 04 54 Or CU 04 55"
+  },
+  {
+   "rule": "CU2481AndCU2104CannotBeAttachedOnSamePolicy",
+   "cond": [
+    "IF",
+    "(",
+    "Count(Commercial Umbrella Automatic Insured Status For Newly Acquired Or Formed Limited Liability Companies)",
+    "> 0.0",
+    "And Count(Commercial Umbrella Exclusion New Entities)",
+    "> 0.0"
+   ],
+   "msg": "CU 24 81 And CU 21 04 Cannot Be Attached On Same Policy"
+  },
+  {
+   "rule": "CU2436Products-CompletedOperationsAggregateLimitOfInsuranceCannotBeAttachedWhenCU2503IsAttached",
+   "cond": [
+    "IF",
+    "(",
+    "Count(Commercial Umbrella Businessowners Liability Changes Including Prod Compld Operations Aggregate Limit Of Insurance)",
+    "> 0.0",
+    "And Count(Commercial Umbrella Products Completed Operations Aggregate Limit Insurance)",
+    "> 0.0"
+   ],
+   "msg": "CU 24 36 Products - Completed Operations Aggregate Limit Of Insurance Cannot Be Attached When CU 25 03 Is Attached"
+  },
+  {
+   "rule": "OnlyOnePollutionExclusionCXForm-CX2152,CX2153,CX2154OrCX2167CanBeAttached",
+   "cond": [
+    "IF",
+    "(",
+    "Count(Commercial Umbrella CX Total Pollution Exclusion)",
+    "+ Count(Commercial Umbrella CX Total Pollution Exclusion With A Hostile Fire Exception)",
+    "+ Count(Commercial Umbrella CX Total Pollution Exclusion Building Heating Cooling Dehumidifying Equip Exception Hostile Fire Exception)",
+    "+ Count(Commercial Umbrella CX Exclusion Pollution Exception For Scheduled Controlling Underlying Insurance)",
+    "> 1.0"
+   ],
+   "msg": "Only One Pollution Exclusion CX Form - CX 21 52, CX 21 53, CX 21 54 Or CX 21 67 Can Be Attached"
+  },
+  {
+   "rule": "CX2171AndCX2148CannotBeAttachedOnSamePolicy",
+   "cond": [
+    "IF",
+    "(",
+    "Count(Commercial Umbrella CX Exclusion Unmanned Aircraft)",
+    "> 0.0",
+    "And Count(Commercial Umbrella CX Exclusion Unmanned Aircraft Exception For Scheduled Controlling Underlying Insurance)",
+    "> 0.0"
+   ],
+   "msg": "CX 21 71 And CX 21 48 Cannot Be Attached On Same Policy"
+  },
+  {
+   "rule": "CX2171OrCX2148CannotBeAttachedWithCX2168",
+   "cond": [
+    "IF",
+    "(",
+    "( Count(Commercial Umbrella CX Exclusion Unmanned Aircraft)",
+    "> 0.0",
+    "Or Count(Commercial Umbrella CX Exclusion Unmanned Aircraft Exception For Scheduled Controlling Underlying Insurance)",
+    "> 0.0",
+    ")",
+    "And Count(Commercial Umbrella CX Exclusion Aircraft Or Watercraft)",
+    "> 0.0"
+   ],
+   "msg": "CX 21 71 Or CX 21 48 Cannot Be Attached With CX 21 68"
+  },
+  {
+   "rule": "OnlyOneGeneticallyModifiedOrganismExclusionCXEndorsementCanBeAttached",
+   "cond": [
+    "IF",
+    "(",
+    "Count(Commercial Umbrella CX Genetically Modified Organism Exclusion)",
+    "> 0.0",
+    "And Count(Commercial Umbrella CX Genetically Modified Organism Exclusion For Designated Operations Or Products)",
+    "> 0.0"
+   ],
+   "msg": "Only One Genetically Modified Organism Exclusion CX Endorsement Can Be Attached"
+  },
+  {
+   "rule": "OnlyOneOfCX2179,CX2180OrCX2181CanBeAttachedToThePolicy",
+   "cond": [
+    "IF",
+    "(",
+    "Count(Commercial Umbrella CX Cannabis Exclusion)",
+    "+ Count(Commercial Umbrella CX Cannabis Exclusion With Hemp Exception)",
+    "+ Count(Commercial Umbrella CX Cannabis Exclusion With Hemp And Lessors Risk Exception)",
+    "> 1.0"
+   ],
+   "msg": "Only One Of CX 21 79, CX 21 80 Or CX 21 81 Can Be Attached To The Policy"
+  },
+  {
+   "rule": "OnlyOneElectronicSmokingDeviceExclusionCXEndorsementCX2177OrCX2178CanBeAttached",
+   "cond": [
+    "IF",
+    "(",
+    "Count(Commercial Umbrella CX Excl All Hazards In Connctn With An Electronic Smoking Dev Its Vapor Component Parts Equipmt And Accessories)",
+    "> 0.0",
+    "And Count(Commercial Umbrella CX Exclusion Health Hazards Electronic Smoking Device Vapor)",
+    "> 0.0"
+   ],
+   "msg": "Only One Electronic Smoking Device Exclusion CX Endorsement CX 21 77 Or CX 21 78 Can Be Attached"
+  },
+  {
+   "rule": "Policy Effective Date",
+   "cond": [],
+   "msg": ""
+  },
+  {
+   "rule": "EDL Endorsements_1",
+   "cond": [
+    "IF",
+    "(",
+    "Count(Commercial Umbrella Electronic Data Liability Endorsement)",
+    "> 0.0",
+    "Or Count(Commercial Umbrella Electronic Data Liability Limited Bodily Injury Exception Not Included)",
+    "> 0.0",
+    "Or Count(Commercial Umbrella EDL Coverage Cov A With Access Or Disclosure Of Confidential Or Personal Information Exclusion Cov B)",
+    "> 0.0"
+   ],
+   "msg": ""
+  },
+  {
+   "rule": "Exclusion Access Or Disclosure Of Confidential Or Personal Info Endorsements_1",
+   "cond": [
+    "IF",
+    "(",
+    "Count(Commercial Umbrella Exclusion Access Or Disclosure Of Confidential Or Personal Info And Data Related Liab With Lmtd BI Excptn)",
+    "> 0.0",
+    "Or Count(Commercial Umbrella Exclusion Access Or Disclosure Of Confidential Or Personal Info And Data Related Liab Lmtd BI Excptn Not Incldd)",
+    "> 0.0",
+    "Or Count(Commercial Umbrella Exclusion Access Or Disclosure Of Confidential Or Personal Information Cov B Only)",
+    "> 0.0"
+   ],
+   "msg": ""
+  }
+ ],
+ "Err-AircraftLiability": [
+  {
+   "rule": "UnderlyingLiabilityPremiumMustBeGreaterThan0",
+   "cond": [
+    "IF",
+    "(",
+    "Underlying Liability Premium",
+    "Is Equal To 0.0"
+   ],
+   "msg": "Underlying Liability Premium Must Be Greater Than 0"
+  }
+ ],
+ "Err-AutoDealers": [
+  {
+   "rule": "UnderlyingLiabilityPremiumMustBeGreaterThan0",
+   "cond": [
+    "IF",
+    "(",
+    "Underlying Liability Premium",
+    "Is Equal To 0.0"
+   ],
+   "msg": "Underlying Liability Premium Must Be Greater Than 0"
+  }
+ ],
+ "Err-BOP": [
+  {
+   "rule": "UnderlyingLiabilityPremiumMustBeGreaterThan0",
+   "cond": [
+    "IF",
+    "(",
+    "Underlying Liability Premium",
+    "Is Equal To 0.0"
+   ],
+   "msg": "Underlying Liability Premium Must Be Greater Than 0"
+  }
+ ],
+ "Err-CommercialAuto": [
+  {
+   "rule": "AtLeastOneUnderlyingLiabilityPremiumMustBeGreaterThan0",
+   "cond": [
+    "IF",
+    "(",
+    "Liability Premium Extra Heavy Trucks",
+    "Is Equal To 0.0",
+    "And Liability Premium Extra Heavy Truck Tractors",
+    "Is Equal To 0.0",
+    "And Liability Premium Heavy Trucks",
+    "Is Equal To 0.0",
+    "And Liability Premium Light Trucks",
+    "Is Equal To 0.0",
+    "And Liability Premium Medium Trucks",
+    "Is Equal To 0.0",
+    "And Liability Premium Public Transportation",
+    "Is Equal To 0.0",
+    "And Liability Premium Private Passenger Types",
+    "Is Equal To 0.0",
+    "And Liability Premium Trailers",
+    "Is Equal To 0.0",
+    "And Liability Premium Truck Tractors",
+    "Is Equal To 0.0",
+    "And Liability Premium Zone Rated",
+    "Is Equal To 0.0",
+    "And Liability Premium Other",
+    "Is Equal To 0.0"
+   ],
+   "msg": "At Least One Underlying Liability Premium Must Be Greater Than 0"
+  }
+ ],
+ "Err-DrivingSchools": [
+  {
+   "rule": "NumberOfDrivingInstructorsMustBeGreaterThan0",
+   "cond": [
+    "IF",
+    "(",
+    "Number Of Driving Instructors",
+    "Is Equal To 0.0"
+   ],
+   "msg": "Number Of Driving Instructors Must Be Greater Than 0"
+  }
+ ],
+ "Err-EmployersLiability": [
+  {
+   "rule": "UnderlyingLiabilityPremiumMustBeGreaterThan0",
+   "cond": [
+    "IF",
+    "(",
+    "Underlying Liability Premium",
+    "Is Equal To 0.0"
+   ],
+   "msg": "Underlying Liability Premium Must Be Greater Than 0"
+  }
+ ],
+ "Err-ExcessLiabilityCoverage": [
+  {
+   "rule": "PleaseEnterAManualPremiumForExcessLiablityCoverage",
+   "cond": [
+    "IF",
+    "(",
+    "Manual Premium",
+    "<= 0.0"
+   ],
+   "msg": "Please Enter A Manual Premium For Excess Liablity Coverage"
+  }
+ ],
+ "Err-FellowEmployeeAutoCovera": [
+  {
+   "rule": "Name,JobTitleOrPositionMustHaveAnEntry",
+   "cond": [
+    "IF",
+    "(",
+    "Name ID",
+    "Is Equal To \"\"",
+    "And Job Title",
+    "Is Equal To \"\"",
+    "And Position",
+    "Is Equal To \"\""
+   ],
+   "msg": "Name, Job Title Or Position Must Have An Entry"
+  }
+ ],
+ "Err-GeneralLiability": [
+  {
+   "rule": "AtLeastOneUnderlyingLiabilityPremiumMustBeGreaterThan0",
+   "cond": [
+    "IF",
+    "(",
+    "Liability Premium Premises Table 1",
+    "Is Equal To 0.0",
+    "And Liability Premium Premises Table 1",
+    "Is Equal To 0.0",
+    "And Liability Premium Premises Table 2",
+    "Is Equal To 0.0",
+    "And Liability Premium Premises Table 3",
+    "Is Equal To 0.0",
+    "And Liability Premium Products Table A",
+    "Is Equal To 0.0",
+    "And Liability Premium Products Table B",
+    "Is Equal To 0.0",
+    "And Liability Premium Products Table C",
+    "Is Equal To 0.0",
+    "And Underlying Employee Benefits Premium",
+    "Is Equal To 0.0",
+    "And Underlying Hired And Non Owned Auto Premium",
+    "Is Equal To 0.0"
+   ],
+   "msg": "At Least One Underlying Liability Premium Must Be Greater Than 0"
+  },
+  {
+   "rule": "UnderlyingHiredAndNonOwnedPremiumMustBeGreaterThan0",
+   "cond": [
+    "IF",
+    "(",
+    "( Underlying Hired And Non Owned Auto Limit",
+    "Not Equal To \"\"",
+    "And Underlying Hired And Non Owned Auto Limit",
+    "Not Equal To \"Not Applicable\"",
+    ")",
+    "And Underlying Hired And Non Owned Auto Premium",
+    "Is Equal To 0.0"
+   ],
+   "msg": "Underlying Hired And Non Owned Premium Must Be Greater Than 0"
+  },
+  {
+   "rule": "UnderlyingHiredAndNonOwnedLimitMustBeEntered",
+   "cond": [
+    "IF",
+    "(",
+    "(",
+    "( Underlying Hired And Non Owned Auto Limit",
+    "Is Equal To \"\"",
+    ")",
+    "Or",
+    "( Underlying Hired And Non Owned Auto Limit",
+    "Is Equal To \"Not Applicable\"",
+    ")",
+    ")",
+    "And Underlying Hired And Non Owned Auto Premium",
+    "Not Equal To 0.0"
+   ],
+   "msg": "Underlying Hired And Non Owned Limit Must Be Entered"
+  }
+ ],
+ "Err-LeasingOrRentalConcernsS": [
+  {
+   "rule": "AtLeastOneLimitMustBeSelected",
+   "cond": [
+    "IF",
+    "(",
+    "Private Passenger Autos Limit Required",
+    "Is Equal To \"Not Applicable\"",
+    "Or Private Passenger Autos Limit Required",
+    "Is Equal To \"\"",
+    "And Commercial Autos Limit Required",
+    "Is Equal To \"Not Applicable\"",
+    "Or Commercial Autos Limit Required",
+    "Is Equal To \"\"",
+    "And Other Autos Limit Required",
+    "Is Equal To \"Not Applicable\"",
+    "Or Other Autos Limit Required",
+    "Is Equal To \"\"",
+    "And Private Passenger Autos Limit Not Required",
+    "Is Equal To \"Not Applicable\"",
+    "Or Private Passenger Autos Limit Not Required",
+    "Is Equal To \"\"",
+    "And Commercial Autos Limit Not Required",
+    "Is Equal To \"Not Applicable\"",
+    "Or Commercial Autos Limit Not Required",
+    "Is Equal To \"\"",
+    "And Other Autos Limit Not Required",
+    "Is Equal To \"Not Applicable\"",
+    "Or",
+    "( Other Autos Limit Not Required",
+    "Is Equal To \"\"",
+    "And Autos Not Subject To Leasing Rental Agreement Limit",
+    "Is Equal To \"Not Applicable\"",
+    ")",
+    "Or",
+    "( Autos Not Subject To Leasing Rental Agreement Limit",
+    "Is Equal To \"\"",
+    ")"
+   ],
+   "msg": "At Least One Limit Must Be Selected"
+  }
+ ],
+ "Err-LimitationOfCoverageToDe": [
+  {
+   "rule": "BothPremisesAndProjectCannotBeBlank",
+   "cond": [
+    "IF",
+    "(",
+    "Address ID",
+    "Is Equal To \"\"",
+    "And Project",
+    "Is Equal To \"\""
+   ],
+   "msg": "Both Premises And Project Cannot Be Blank"
+  }
+ ],
+ "Err-Liquor": [
+  {
+   "rule": "UnderlyingLiabilityPremiumMustBeGreaterThan0",
+   "cond": [
+    "IF",
+    "(",
+    "Underlying Liability Premium",
+    "Is Equal To 0.0"
+   ],
+   "msg": "Underlying Liability Premium Must Be Greater Than 0"
+  }
+ ],
+ "Err-OtherLiability": [
+  {
+   "rule": "UnderlyingLiabilityPremiumMustBeGreaterThan0",
+   "cond": [
+    "IF",
+    "(",
+    "Underlying Liability Premium",
+    "Is Equal To 0.0"
+   ],
+   "msg": "Underlying Liability Premium Must Be Greater Than 0"
+  }
+ ],
+ "Err-Watercraft": [
+  {
+   "rule": "UnderlyingLiabilityPremiumMustBeGreaterThan0",
+   "cond": [
+    "IF",
+    "(",
+    "Underlying Liability Premium",
+    "Is Equal To 0.0"
+   ],
+   "msg": "Underlying Liability Premium Must Be Greater Than 0"
+  }
+ ]
+}

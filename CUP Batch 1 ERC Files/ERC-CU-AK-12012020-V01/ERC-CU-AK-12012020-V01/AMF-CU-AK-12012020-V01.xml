@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Automated_Maintenance_Feed>
+	<Title><LOB version="V01">Commercial Umbrella</LOB><StateName>Alaska</StateName><ContentId>RC-CU-AK-12012020-V01</ContentId><EffectiveDt>12/01/2020</EffectiveDt><PreviousEffectiveDate>06/16/2020</PreviousEffectiveDate></Title>
+	<ReleaseInformation>
+    <ChangeDetail>This section describes all the Release information for the state of Alaska. You will find all filing, NTM and Circular information as well as other pertinent information.</ChangeDetail>
+    <CWReleaseInformation><CountrywideContentIdentifier id="RC-CU-CW-12012020-V01" version="V01"/><EffectiveDate version="V01">12/01/2020</EffectiveDate><DateAdoptedByState version="V01">12/01/2020</DateAdoptedByState></CWReleaseInformation>
+    <StateReleaseInformation><StateContentIdentifier id="RC-CU-AK-12012020-V01" version="V01"/><StateEffectiveDate>12/01/2020</StateEffectiveDate></StateReleaseInformation>
+    <VersionHistory><HistoryInfo id="0" version="V01">Version 1 - Release Date: 06/05/2021</HistoryInfo></VersionHistory>
+    <CircularReferences><Circular id="1" version="V01"><CircularNumber version="V01">LI-CL-2020-034</CircularNumber><CircularReleaseDate version="V01">08/13/2020</CircularReleaseDate><CircularName id="1" link="https://www5.iso.com/circsearch/document?circnumber=LI-CL-2020-034&amp;circyear=2020&amp;circdoctype=4&amp;circfile=LICL2020034.pdf" version="V01">REVISED TERRORISM DISCLOSURE FORMS AND RULES IN RESPONSE TO TERRORISM RISK INSURANCE PROGRAM REAUTHORIZATION ACT OF 2019 TO BE IMPLEMENTED</CircularName><CircularType version="V01">Forms &amp; Rules</CircularType><FilingName version="V01">CL-2020-OTENF, CL-2020-OTTRU</FilingName><NoticeToManualHolders><Name version="V01">Not Available</Name></NoticeToManualHolders></Circular><Circular id="2" version="V01"><CircularNumber version="V01">LI-CL-2020-035</CircularNumber><CircularReleaseDate version="V01">08/13/2020</CircularReleaseDate><CircularName id="2" link="https://www5.iso.com/circsearch/document?circnumber=LI-CL-2020-035&amp;circyear=2020&amp;circdoctype=4&amp;circfile=LICL2020035.pdf" version="V01">FINAL COPIES OF TERRORISM DISCLOSURE FORMS REVISED IN RESPONSE TO THE TERRORISM RISK INSURANCE PROGRAM REAUTHORIZATION ACT OF 2019 PROVIDED</CircularName><CircularType version="V01">Forms</CircularType><FilingName version="V01">Not Available</FilingName><NoticeToManualHolders><Name version="V01">Not Available</Name></NoticeToManualHolders></Circular></CircularReferences>
+    <LatestCircularsByService><CIRCULARSERVICE version="V01"><Service id="20" version="V01"><ServiceType version="V01">FORMS</ServiceType><CircularNumber version="V01">LI-CL-2020-035, LI-CL-2020-034</CircularNumber><CircularEffectiveDate version="V01">12012020</CircularEffectiveDate></Service><Service id="21" version="V01"><ServiceType version="V01">RULES</ServiceType><CircularNumber version="V01">LI-CL-2020-034</CircularNumber><CircularEffectiveDate version="V01">12012020</CircularEffectiveDate></Service></CIRCULARSERVICE></LatestCircularsByService>
+   </ReleaseInformation>
+  <ChangesInThisRelease>
+    <CircularImplementations><CircularNumber name="LI-CL-2020-034" filingID="CL-2020-OTENF, CL-2020-OTTRU" NTM="Not Available" version="V01"><ChangeDetails version="V01"><CWChange version="V01"><CWChangeReferenceNumber version="V01">LI-CL-2020-034</CWChangeReferenceNumber><CWChangeEffectiveDate version="V01">12/01/2020</CWChangeEffectiveDate></CWChange></ChangeDetails></CircularNumber><CircularNumber name="LI-CL-2020-035" version="V01"><ChangeDetails version="V01"><CWChange version="V01"><CWChangeReferenceNumber version="V01">LI-CL-2020-035</CWChangeReferenceNumber><CWChangeEffectiveDate version="V01">12/01/2020</CWChangeEffectiveDate></CWChange></ChangeDetails></CircularNumber></CircularImplementations>
+      
+    
+ <Enhancements/>
+    <Corrections><Sequence id="1" version="V01"><DefectDescription version="V01">Does not impact premium. 
+There were pages that had names abbreviated.</DefectDescription><Solutions version="V01"><GeneralSolution version="V01">The pages are modified to have names truncated instead of abbreviation.</GeneralSolution><Solution version="V01"><PageNameModified version="V01"><Page seq="1" previousname="Alaska Exclusion Of Certified Nuclear, Biolgcl, Chmcl Or Radiological Acts Of Terrsm; Cap On Losses From Certfd Acts Of Terrsm" newname="Alaska Exclusion Of Certified Nuclear, Biological, Chemical Or Radiological Acts Of Terrorism; Cap On Losses From Certified Acts" tablename="CommercialUmbrellaExclusionOfCertifiedActsOfNuclearBiologicalChemicalTerrorismCapLossesCertifiedActs" version="V01"><PreviousFormNumber version="V01">CU 01 81 01 15</PreviousFormNumber><Form type="FRC">
+  <Id>{BFE19D5D-AD6B-4E6F-A898-81DD5666BCDF}</Id>
+  
+  <TableId>{57F4EB85-672B-4882-BCAA-4E267C2E80F6}</TableId>
+  <TableName>CommercialUmbrellaCXExclusionOfCertifiedActsOfNuclearBiologicalChemicalTerrorismCapLossesCertifiedActs</TableName>
+  <Type>Form</Type>
+  <Sequence>7430</Sequence>
+  <SubSequence>1</SubSequence>
+  <AddChangeDeleteFlag>A</AddChangeDeleteFlag>
+  <Name Offset="Alaska Exclusion Of Certified Nuclear, Biolgcl, Chmcl Or Radiological Acts Of Terrsm; Cap On Losses From Certfd Acts Of Terrsm">Alaska Exclusion Of Certified Nuclear, Biological, Chemical Or Radiological Acts Of Terrorism; Cap On Losses From Certified Acts</Name>
+  <ParentName>Policy Detail</ParentName>
+  <HidePremium>1</HidePremium>
+  <Condition/>
+  <Number>CX 01 83 02 16</Number>
+  <TreeItemLabel/>
+  <TreeItemHoverText/>
+  <MinOccurs>0</MinOccurs>
+  <MaxOccurs>0</MaxOccurs>
+  <BureauRuleNumber/>
+  <Comment/>
+  <TemplateFile/>
+  <Hidden>0</Hidden>
+  <TabCondition/>
+  <TabResourceName/>
+  <BtnResAdd/>
+  <BtnCndAdd/>
+  <BtnResModify/>
+  <BtnCndModify/>
+  <BtnLblModify/>
+  <BtnResDelete/>
+  <BtnCndDelete/>
+  <BtnLblDelete/>
+  <BtnResViewDetail/>
+  <BtnLblViewDetail/>
+  <BtnResCopy/>
+  <BtnCndCopy/>
+  <BtnLblCopy/>
+  <BtnResRenumber/>
+  <BtnCndRenumber/>
+  <BtnLblRenumber/>
+  <BtnResView/>
+  <BtnCndView/>
+  <BtnLblView/>
+  <BeforeScript/>
+  <BeforeScriptData/>
+  <AfterScript/>
+  <AfterScriptData/>
+  <DisplayMode/>
+  <DisplayModeCondition/>
+  <CombineWithDetail>N</CombineWithDetail>
+  <BackToTop>N</BackToTop>
+  <BackToTopLbl/>
+  <AttachmentCondition>Legacy</AttachmentCondition>
+  <AttachmentXPath/>
+  <AttachmentSequence/>
+  <Variable>N</Variable>
+  <Scheduled>N</Scheduled>
+  <Action Inherited="">Revised</Action>
+</Form></Page><Page seq="2" previousname="Alaska Conditional Exclusion Of Terrorism Involving Nuclear, Biological Or Chemical Terrorism (Relating To Disposition Of TRIA)" newname="Alaska Conditional Exclusion Of Terrorism Involving Nuclear, Biological Or Chemical Terrorism (Relating To Disposition Of Federa" tablename="CommercialUmbrellaConditionalExclusionOfTerrorismNuclearBiologicalChemicalDispositionOfAct2002" version="V01"><PreviousFormNumber version="V01">CU 01 83 01 15</PreviousFormNumber><Form type="FRC">
+  <Id>{76675A03-42C1-4847-8A7F-72B930F8D8D5}</Id>
+  
+  <TableId>{6FF7E28D-D4BA-474F-8FD5-0C4764771368}</TableId>
+  <TableName>CommercialUmbrellaConditionalExclusionOfTerrorismNuclearBiologicalChemicalDispositionOfAct2002</TableName>
+  <Type>Form</Type>
+  <Sequence>2280</Sequence>
+  <SubSequence>1</SubSequence>
+  <AddChangeDeleteFlag>A</AddChangeDeleteFlag>
+  <Name Offset="Alaska Conditional Exclusion Of Terrorism Involving Nuclear, Biological Or Chemical Terrorism (Relating To Disposition Of TRIA)">Alaska Conditional Exclusion Of Terrorism Involving Nuclear, Biological Or Chemical Terrorism (Relating To Disposition Of Federa</Name>
+  <ParentName>Policy Detail</ParentName>
+  <HidePremium>1</HidePremium>
+  <Condition>PolicyCoverageForm[.='Commercial Umbrella Coverage Form' or .='Commercial Umbrella Coverage Form and Commercial Excess Liability Coverage Form']</Condition>
+  <Number>CU 01 83 01 15</Number>
+  <TreeItemLabel/>
+  <TreeItemHoverText/>
+  <MinOccurs>0</MinOccurs>
+  <MaxOccurs>1</MaxOccurs>
+  <BureauRuleNumber/>
+  <Comment/>
+  <TemplateFile/>
+  <Hidden>0</Hidden>
+  <TabCondition/>
+  <TabResourceName/>
+  <BtnResAdd/>
+  <BtnCndAdd/>
+  <BtnResModify/>
+  <BtnCndModify/>
+  <BtnLblModify/>
+  <BtnResDelete/>
+  <BtnCndDelete/>
+  <BtnLblDelete/>
+  <BtnResViewDetail/>
+  <BtnLblViewDetail/>
+  <BtnResCopy/>
+  <BtnCndCopy/>
+  <BtnLblCopy/>
+  <BtnResRenumber/>
+  <BtnCndRenumber/>
+  <BtnLblRenumber/>
+  <BtnResView/>
+  <BtnCndView/>
+  <BtnLblView/>
+  <BeforeScript/>
+  <BeforeScriptData/>
+  <AfterScript/>
+  <AfterScriptData/>
+  <DisplayMode/>
+  <DisplayModeCondition/>
+  <CombineWithDetail>N</CombineWithDetail>
+  <BackToTop>N</BackToTop>
+  <BackToTopLbl/>
+  <AttachmentCondition/>
+  <AttachmentXPath/>
+  <AttachmentSequence/>
+  <Variable>N</Variable>
+  <Scheduled>N</Scheduled>
+  <Action>Revised</Action>
+</Form></Page><Page seq="3" previousname="Alaska Total Pollution Exclusion With A Bldg Heating, Cooling And Dehumidifying Equipment Exception And A Hostile Fire Exception" newname="Alaska Total Pollution Exclusion With A Building Heating, Cooling And Dehumidifying Equipment Exception And A Hostile Fire Excep" tablename="CommercialUmbrellaTotalPollutionExclusionBuildingHeatingCoolingDehumidifyingEquipExceptionHostileFireException" version="V01"><PreviousFormNumber version="V01">CU 21 54 06 06</PreviousFormNumber><Form type="FRC">
+  <Id>{C1EFEFBA-A71A-4CBD-9089-79B01C84D0F6}</Id>
+  
+  <TableId>{47658C0F-A12F-40ED-8BDE-3C6B674079F0}</TableId>
+  <TableName>CommercialUmbrellaCXTotalPollutionExclusionBuildingHeatingCoolingDehumidifyingEquipExceptionHostileFireException</TableName>
+  <Type>Form</Type>
+  <Sequence>7050</Sequence>
+  <SubSequence>1</SubSequence>
+  <AddChangeDeleteFlag>A</AddChangeDeleteFlag>
+  <Name Offset="Alaska Total Pollution Exclusion With A Bldg Heating, Cooling And Dehumidifying Equipment Exception And A Hostile Fire Exception">Alaska Total Pollution Exclusion With A Building Heating, Cooling And Dehumidifying Equipment Exception And A Hostile Fire Excep</Name>
+  <ParentName>Policy Detail</ParentName>
+  <HidePremium>0</HidePremium>
+  <Condition>PolicyCoverageForm[.='Commercial Excess Liability Coverage Form' or .='Commercial Umbrella Coverage Form and Commercial Excess Liability Coverage Form']</Condition>
+  <Number>CX 21 54 04 13</Number>
+  <TreeItemLabel/>
+  <TreeItemHoverText/>
+  <MinOccurs>0</MinOccurs>
+  <MaxOccurs>1</MaxOccurs>
+  <BureauRuleNumber/>
+  <Comment/>
+  <TemplateFile/>
+  <Hidden>0</Hidden>
+  <TabCondition/>
+  <TabResourceName/>
+  <BtnResAdd/>
+  <BtnCndAdd/>
+  <BtnResModify/>
+  <BtnCndModify/>
+  <BtnLblModify/>
+  <BtnResDelete/>
+  <BtnCndDelete/>
+  <BtnLblDelete/>
+  <BtnResViewDetail/>
+  <BtnLblViewDetail/>
+  <BtnResCopy/>
+  <BtnCndCopy/>
+  <BtnLblCopy/>
+  <BtnResRenumber/>
+  <BtnCndRenumber/>
+  <BtnLblRenumber/>
+  <BtnResView/>
+  <BtnCndView/>
+  <BtnLblView/>
+  <BeforeScript/>
+  <BeforeScriptData/>
+  <AfterScript/>
+  <AfterScriptData/>
+  <DisplayMode/>
+  <DisplayModeCondition/>
+  <CombineWithDetail>N</CombineWithDetail>
+  <BackToTop>N</BackToTop>
+  <BackToTopLbl/>
+  <AttachmentCondition/>
+  <AttachmentXPath/>
+  <AttachmentSequence/>
+  <Variable>N</Variable>
+  <Scheduled>N</Scheduled>
+  <Action Inherited="">Revised</Action>
+</Form></Page><Page seq="4" previousname="Alaska Total Pollution Exclusion With A Bldg Heating, Cooling And Dehumidifying Equipment Exception And A Hostile Fire Exception" newname="Alaska Total Pollution Exclusion With A Building Heating, Cooling And Dehumidifying Equipment Exception And A Hostile Fire Excep" tablename="CommercialUmbrellaCXTotalPollutionExclusionBuildingHeatingCoolingDehumidifyingEquipExceptionHostileFireException" version="V01"><PreviousFormNumber version="V01">CX 21 54 04 13</PreviousFormNumber><Form type="FRC">
+  <Id>{C1EFEFBA-A71A-4CBD-9089-79B01C84D0F6}</Id>
+  
+  <TableId>{47658C0F-A12F-40ED-8BDE-3C6B674079F0}</TableId>
+  <TableName>CommercialUmbrellaCXTotalPollutionExclusionBuildingHeatingCoolingDehumidifyingEquipExceptionHostileFireException</TableName>
+  <Type>Form</Type>
+  <Sequence>7050</Sequence>
+  <SubSequence>1</SubSequence>
+  <AddChangeDeleteFlag>A</AddChangeDeleteFlag>
+  <Name Offset="Alaska Total Pollution Exclusion With A Bldg Heating, Cooling And Dehumidifying Equipment Exception And A Hostile Fire Exception">Alaska Total Pollution Exclusion With A Building Heating, Cooling And Dehumidifying Equipment Exception And A Hostile Fire Excep</Name>
+  <ParentName>Policy Detail</ParentName>
+  <HidePremium>0</HidePremium>
+  <Condition>PolicyCoverageForm[.='Commercial Excess Liability Coverage Form' or .='Commercial Umbrella Coverage Form and Commercial Excess Liability Coverage Form']</Condition>
+  <Number>CX 21 54 04 13</Number>
+  <TreeItemLabel/>
+  <TreeItemHoverText/>
+  <MinOccurs>0</MinOccurs>
+  <MaxOccurs>1</MaxOccurs>
+  <BureauRuleNumber/>
+  <Comment/>
+  <TemplateFile/>
+  <Hidden>0</Hidden>
+  <TabCondition/>
+  <TabResourceName/>
+  <BtnResAdd/>
+  <BtnCndAdd/>
+  <BtnResModify/>
+  <BtnCndModify/>
+  <BtnLblModify/>
+  <BtnResDelete/>
+  <BtnCndDelete/>
+  <BtnLblDelete/>
+  <BtnResViewDetail/>
+  <BtnLblViewDetail/>
+  <BtnResCopy/>
+  <BtnCndCopy/>
+  <BtnLblCopy/>
+  <BtnResRenumber/>
+  <BtnCndRenumber/>
+  <BtnLblRenumber/>
+  <BtnResView/>
+  <BtnCndView/>
+  <BtnLblView/>
+  <BeforeScript/>
+  <BeforeScriptData/>
+  <AfterScript/>
+  <AfterScriptData/>
+  <DisplayMode/>
+  <DisplayModeCondition/>
+  <CombineWithDetail>N</CombineWithDetail>
+  <BackToTop>N</BackToTop>
+  <BackToTopLbl/>
+  <AttachmentCondition/>
+  <AttachmentXPath/>
+  <AttachmentSequence/>
+  <Variable>N</Variable>
+  <Scheduled>N</Scheduled>
+  <Action Inherited="">Revised</Action>
+</Form></Page><Page seq="5" previousname="Alaska Conditional Exclusion Of Terrorism Involving Nuclear, Biological, Chemical Terrorism(Relating To Disposition Of TRIA)" newname="Alaska Conditional Exclusion Of Terrorism Involving Nuclear, Biological Or Chemical Terrorism (Relating To Disposition Of Federa" tablename="CommercialUmbrellaCXConditionalExclusionOfTerrorismNuclearBiologicalChemicalRelatingToDispositionOfTRIA" version="V01"><PreviousFormNumber version="V01">CX 21 40 01 15</PreviousFormNumber><Form type="FRC">
+  <Id>{76675A03-42C1-4847-8A7F-72B930F8D8D5}</Id>
+  
+  <TableId>{6FF7E28D-D4BA-474F-8FD5-0C4764771368}</TableId>
+  <TableName>CommercialUmbrellaConditionalExclusionOfTerrorismNuclearBiologicalChemicalDispositionOfAct2002</TableName>
+  <Type>Form</Type>
+  <Sequence>2280</Sequence>
+  <SubSequence>1</SubSequence>
+  <AddChangeDeleteFlag>A</AddChangeDeleteFlag>
+  <Name Offset="Alaska Conditional Exclusion Of Terrorism Involving Nuclear, Biological Or Chemical Terrorism (Relating To Disposition Of TRIA)">Alaska Conditional Exclusion Of Terrorism Involving Nuclear, Biological Or Chemical Terrorism (Relating To Disposition Of Federa</Name>
+  <ParentName>Policy Detail</ParentName>
+  <HidePremium>1</HidePremium>
+  <Condition>PolicyCoverageForm[.='Commercial Umbrella Coverage Form' or .='Commercial Umbrella Coverage Form and Commercial Excess Liability Coverage Form']</Condition>
+  <Number>CU 01 83 01 15</Number>
+  <TreeItemLabel/>
+  <TreeItemHoverText/>
+  <MinOccurs>0</MinOccurs>
+  <MaxOccurs>1</MaxOccurs>
+  <BureauRuleNumber/>
+  <Comment/>
+  <TemplateFile/>
+  <Hidden>0</Hidden>
+  <TabCondition/>
+  <TabResourceName/>
+  <BtnResAdd/>
+  <BtnCndAdd/>
+  <BtnResModify/>
+  <BtnCndModify/>
+  <BtnLblModify/>
+  <BtnResDelete/>
+  <BtnCndDelete/>
+  <BtnLblDelete/>
+  <BtnResViewDetail/>
+  <BtnLblViewDetail/>
+  <BtnResCopy/>
+  <BtnCndCopy/>
+  <BtnLblCopy/>
+  <BtnResRenumber/>
+  <BtnCndRenumber/>
+  <BtnLblRenumber/>
+  <BtnResView/>
+  <BtnCndView/>
+  <BtnLblView/>
+  <BeforeScript/>
+  <BeforeScriptData/>
+  <AfterScript/>
+  <AfterScriptData/>
+  <DisplayMode/>
+  <DisplayModeCondition/>
+  <CombineWithDetail>N</CombineWithDetail>
+  <BackToTop>N</BackToTop>
+  <BackToTopLbl/>
+  <AttachmentCondition/>
+  <AttachmentXPath/>
+  <AttachmentSequence/>
+  <Variable>N</Variable>
+  <Scheduled>N</Scheduled>
+  <Action>Revised</Action>
+</Form></Page><Page seq="6" previousname="Alaska Exclusion Of Certified Nuclear, Biolgcl, Chmcl Or Radiological Acts Of Terrsm; Cap On Losses From Certfd Acts Of Terrsm" newname="Alaska Exclusion Of Certified Nuclear, Biological, Chemical Or Radiological Acts Of Terrorism; Cap On Losses From Certified Acts" tablename="CommercialUmbrellaCXExclusionOfCertifiedActsOfNuclearBiologicalChemicalTerrorismCapLossesCertifiedActs" version="V01"><PreviousFormNumber version="V01">CX 01 83 02 16</PreviousFormNumber><Form type="FRC">
+  <Id>{BFE19D5D-AD6B-4E6F-A898-81DD5666BCDF}</Id>
+  
+  <TableId>{57F4EB85-672B-4882-BCAA-4E267C2E80F6}</TableId>
+  <TableName>CommercialUmbrellaCXExclusionOfCertifiedActsOfNuclearBiologicalChemicalTerrorismCapLossesCertifiedActs</TableName>
+  <Type>Form</Type>
+  <Sequence>7430</Sequence>
+  <SubSequence>1</SubSequence>
+  <AddChangeDeleteFlag>A</AddChangeDeleteFlag>
+  <Name Offset="Alaska Exclusion Of Certified Nuclear, Biolgcl, Chmcl Or Radiological Acts Of Terrsm; Cap On Losses From Certfd Acts Of Terrsm">Alaska Exclusion Of Certified Nuclear, Biological, Chemical Or Radiological Acts Of Terrorism; Cap On Losses From Certified Acts</Name>
+  <ParentName>Policy Detail</ParentName>
+  <HidePremium>1</HidePremium>
+  <Condition/>
+  <Number>CX 01 83 02 16</Number>
+  <TreeItemLabel/>
+  <TreeItemHoverText/>
+  <MinOccurs>0</MinOccurs>
+  <MaxOccurs>0</MaxOccurs>
+  <BureauRuleNumber/>
+  <Comment/>
+  <TemplateFile/>
+  <Hidden>0</Hidden>
+  <TabCondition/>
+  <TabResourceName/>
+  <BtnResAdd/>
+  <BtnCndAdd/>
+  <BtnResModify/>
+  <BtnCndModify/>
+  <BtnLblModify/>
+  <BtnResDelete/>
+  <BtnCndDelete/>
+  <BtnLblDelete/>
+  <BtnResViewDetail/>
+  <BtnLblViewDetail/>
+  <BtnResCopy/>
+  <BtnCndCopy/>
+  <BtnLblCopy/>
+  <BtnResRenumber/>
+  <BtnCndRenumber/>
+  <BtnLblRenumber/>
+  <BtnResView/>
+  <BtnCndView/>
+  <BtnLblView/>
+  <BeforeScript/>
+  <BeforeScriptData/>
+  <AfterScript/>
+  <AfterScriptData/>
+  <DisplayMode/>
+  <DisplayModeCondition/>
+  <CombineWithDetail>N</CombineWithDetail>
+  <BackToTop>N</BackToTop>
+  <BackToTopLbl/>
+  <AttachmentCondition>Legacy</AttachmentCondition>
+  <AttachmentXPath/>
+  <AttachmentSequence/>
+  <Variable>N</Variable>
+  <Scheduled>N</Scheduled>
+  <Action Inherited="">Revised</Action>
+</Form></Page></PageNameModified></Solution></Solutions></Sequence><Sequence id="2" version="V01"><DefectDescription version="V01">Does not impact premium calculation.  
+Ratebook tables related to deleted pages had rule number and comment reference.</DefectDescription><Solutions version="V01"><GeneralSolution version="V01">Rule numbers and comments were removed on unused ratebook tables.</GeneralSolution><Solution version="V01"><RatebookTableDisinherited version="V01"><RatebookTable seq="1" version="V01"><Name version="V01">CommercialUmbrellaExclusionYear2000ComputerRelatedAndOtherElectronicProblems</Name><RatebookTable>
+
+<TableName>CommercialUmbrellaExclusionYear2000ComputerRelatedAndOtherElectronicProblems</TableName><TableId>{65D672A9-420D-498A-BA47-22AF05B8FF1F}</TableId>
+<AddChangeDeleteFlag>A</AddChangeDeleteFlag>
+<BureauRuleNumber/>
+<Comment/>
+<Action>Added</Action>
+</RatebookTable></RatebookTable><RatebookTable seq="2" version="V01"><Name version="V01">CommercialUmbrellaExclusionYear2000ComputerRelatedAndOtherElectronicProblemsProductsCompletedOperations</Name><RatebookTable>
+
+<TableName>CommercialUmbrellaExclusionYear2000ComputerRelatedAndOtherElectronicProblemsProductsCompletedOperations</TableName><TableId>{9215CE03-6B4F-4A2C-8F7E-0EEFC74A032B}</TableId>
+<AddChangeDeleteFlag>A</AddChangeDeleteFlag>
+<BureauRuleNumber/>
+<Comment/>
+<Action>Added</Action>
+</RatebookTable></RatebookTable><RatebookTable seq="3" version="V01"><Name version="V01">CommercialUmbrellaExclusionYear2000ComputerRelatedOtherElectronicProblemsExceptionForBodilyInjuryOnYourPremises</Name><RatebookTable>
+
+<TableName>CommercialUmbrellaExclusionYear2000ComputerRelatedOtherElectronicProblemsExceptionForBodilyInjuryOnYourPremises</TableName><TableId>{D54E9876-5296-48A8-973A-2E90AE85E8EF}</TableId>
+<AddChangeDeleteFlag>A</AddChangeDeleteFlag>
+<BureauRuleNumber/>
+<Comment/>
+<Action>Added</Action>
+</RatebookTable></RatebookTable><RatebookTable seq="4" version="V01"><Name version="V01">CommercialUmbrellaFungiOrBacteriaExclusion</Name><RatebookTable>
+
+<TableName>CommercialUmbrellaFungiOrBacteriaExclusion</TableName><TableId>{C42F9131-2EF8-4771-A75C-CF2A53F3903B}</TableId>
+<AddChangeDeleteFlag>A</AddChangeDeleteFlag>
+<BureauRuleNumber/>
+<Comment/>
+<Action>Added</Action>
+</RatebookTable></RatebookTable><RatebookTable seq="5" version="V01"><Name version="V01">CommercialUmbrellaYear2000ComputerRelatedElectronicProblemsExclSpecifiedCovDesignatedLocOperationProductService</Name><RatebookTable>
+
+<TableName>CommercialUmbrellaYear2000ComputerRelatedElectronicProblemsExclSpecifiedCovDesignatedLocOperationProductService</TableName><TableId>{F29F7E0F-C8D4-4A86-8968-E23FBB2E1B4D}</TableId>
+<AddChangeDeleteFlag>A</AddChangeDeleteFlag>
+<BureauRuleNumber/>
+<Comment/>
+<Action>Added</Action>
+</RatebookTable></RatebookTable><RatebookTable seq="6" version="V01"><Name version="V01">CommercialUmbrellaYear2000ComputerRelatedElectronicProblemsExclSpecifiedCovDesignatedLocOpsProdServiceDetail</Name><RatebookTable>
+
+<TableName>CommercialUmbrellaYear2000ComputerRelatedElectronicProblemsExclSpecifiedCovDesignatedLocOpsProdServiceDetail</TableName><TableId>{10566482-EBCE-44C4-AF0A-D20D10FEBFDF}</TableId>
+<AddChangeDeleteFlag>A</AddChangeDeleteFlag>
+<BureauRuleNumber/>
+<Comment/>
+<Action>Added</Action>
+</RatebookTable></RatebookTable><RatebookTable seq="7" version="V01"><Name version="V01">CommercialUmbrellaYear2000ComputerRelatedAndOtherElectronicProblemsLimitedCoverageOptions</Name><RatebookTable>
+
+<TableName>CommercialUmbrellaYear2000ComputerRelatedAndOtherElectronicProblemsLimitedCoverageOptions</TableName><TableId>{D77378F5-1978-4B5F-BA06-0650D6054739}</TableId>
+<AddChangeDeleteFlag>A</AddChangeDeleteFlag>
+<BureauRuleNumber/>
+<Comment/>
+<Action>Added</Action>
+</RatebookTable></RatebookTable><RatebookTable seq="8" version="V01"><Name version="V01">CommercialUmbrellaYear2000ComputerRelatedAndOtherElectronicProblemsLimitedCoverageOptionsDetail</Name><RatebookTable>
+
+<TableName>CommercialUmbrellaYear2000ComputerRelatedAndOtherElectronicProblemsLimitedCoverageOptionsDetail</TableName><TableId>{44A2B448-629D-487B-B279-9D3C93CF11B7}</TableId>
+<AddChangeDeleteFlag>A</AddChangeDeleteFlag>
+<BureauRuleNumber/>
+<Comment/>
+<Action>Added</Action>
+</RatebookTable></RatebookTable><RatebookTable seq="9" version="V01"><Name version="V01">CommercialUmbrellaResidentAgentCountersignatureEndorsement</Name><RatebookTable>
+
+<TableName>CommercialUmbrellaResidentAgentCountersignatureEndorsement</TableName><TableId>{B3F42782-EDE3-44DB-A23A-E52411A56448}</TableId>
+<AddChangeDeleteFlag>A</AddChangeDeleteFlag>
+<BureauRuleNumber/>
+<Comment/>
+<Action>Added</Action>
+</RatebookTable></RatebookTable><RatebookTable seq="10" version="V01"><Name version="V01">CommercialUmbrellaCXExclusionFungiOrBacteria</Name><RatebookTable>
+
+<TableName>CommercialUmbrellaCXExclusionFungiOrBacteria</TableName><TableId>{B5ED64A2-2418-4BDF-95CE-56CD4A6BBC01}</TableId>
+<AddChangeDeleteFlag>A</AddChangeDeleteFlag>
+<BureauRuleNumber/>
+<Comment/>
+<Action>Added</Action>
+</RatebookTable></RatebookTable></RatebookTableDisinherited></Solution></Solutions></Sequence></Corrections>
+    <Maintenance/>
+  </ChangesInThisRelease>
+<KnownIssues><KnownIssuesDescription id="1" version="V01">There are no known issues in this release.</KnownIssuesDescription></KnownIssues><SpecialConsiderations><SpecialConsiderationsDescription id="3" version="V01">There are no special considerations for this release.</SpecialConsiderationsDescription></SpecialConsiderations></Automated_Maintenance_Feed>

@@ -1,0 +1,8 @@
+Domain Table,Key,Sequence,Type,Size,Scale
+CityTown,State,1,Text,12,
+ConstructionCode,ConstructionType,1,Text,32,
+County,State,1,Text,12,
+County,CityTown,2,Text,128,
+FireClassificationCode,FireClassificationDescription,1,Text,128,
+UMBILimit,BILimit,1,Text,128,
+UMLiabLimit,LiabLimit,1,Text,128,

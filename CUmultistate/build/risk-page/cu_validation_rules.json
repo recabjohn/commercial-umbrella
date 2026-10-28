@@ -1,0 +1,132 @@
+{
+  "policy": [
+    {
+      "t": "gt0",
+      "f": "CommercialUmbrellaExcessLiabilityCoverage.ManualPremium",
+      "msg": "Please Enter A Manual Premium For Excess Liablity Coverage"
+    }
+  ],
+  "groups": {
+    "Aircraft Liability": [
+      {
+        "t": "allZero",
+        "f": [
+          "UnderlyingLiabilityPremium"
+        ],
+        "msg": "Underlying Liability Premium Must Be Greater Than 0",
+        "offPage": []
+      }
+    ],
+    "BOP": [
+      {
+        "t": "allZero",
+        "f": [
+          "UnderlyingLiabilityPremium"
+        ],
+        "msg": "Underlying Liability Premium Must Be Greater Than 0",
+        "offPage": []
+      }
+    ],
+    "Commercial Auto": [
+      {
+        "t": "allZero",
+        "f": [
+          "LiabilityPremiumExtraHeavyTrucks",
+          "LiabilityPremiumExtraHeavyTruckTractors",
+          "LiabilityPremiumHeavyTrucks",
+          "LiabilityPremiumLightTrucks",
+          "LiabilityPremiumMediumTrucks",
+          "LiabilityPremiumPublicTransportation",
+          "LiabilityPremiumPrivatePassengerTypes",
+          "LiabilityPremiumTrailers",
+          "LiabilityPremiumTruckTractors",
+          "LiabilityPremiumZoneRated",
+          "LiabilityPremiumOther"
+        ],
+        "msg": "At Least One Underlying Liability Premium Must Be Greater Than 0",
+        "offPage": []
+      }
+    ],
+    "Auto Dealers": [
+      {
+        "t": "allZero",
+        "f": [
+          "UnderlyingLiabilityPremium"
+        ],
+        "msg": "Underlying Liability Premium Must Be Greater Than 0",
+        "offPage": []
+      }
+    ],
+    "General Liability": [
+      {
+        "t": "allZero",
+        "f": [
+          "LiabilityPremiumPremisesTable1",
+          "LiabilityPremiumPremisesTable1",
+          "LiabilityPremiumPremisesTable2",
+          "LiabilityPremiumPremisesTable3",
+          "LiabilityPremiumProductsTableA",
+          "LiabilityPremiumProductsTableB",
+          "LiabilityPremiumProductsTableC",
+          "UnderlyingHiredAndNonOwnedAutoPremium"
+        ],
+        "msg": "At Least One Underlying Liability Premium Must Be Greater Than 0",
+        "offPage": [
+          "Underlying Employee Benefits Premium"
+        ]
+      },
+      {
+        "t": "limitNeedsPremium",
+        "limit": "UnderlyingHiredAndNonOwnedAutoLimit",
+        "prem": "UnderlyingHiredAndNonOwnedAutoPremium",
+        "msg": "Underlying Hired And Non Owned Premium Must Be Greater Than 0"
+      },
+      {
+        "t": "premiumNeedsLimit",
+        "limit": "UnderlyingHiredAndNonOwnedAutoLimit",
+        "prem": "UnderlyingHiredAndNonOwnedAutoPremium",
+        "msg": "Underlying Hired And Non Owned Limit Must Be Entered"
+      }
+    ],
+    "Employers Liability": [
+      {
+        "t": "allZero",
+        "f": [
+          "UnderlyingLiabilityPremium"
+        ],
+        "msg": "Underlying Liability Premium Must Be Greater Than 0",
+        "offPage": []
+      }
+    ],
+    "Liquor": [
+      {
+        "t": "allZero",
+        "f": [
+          "UnderlyingLiabilityPremium"
+        ],
+        "msg": "Underlying Liability Premium Must Be Greater Than 0",
+        "offPage": []
+      }
+    ],
+    "Watercraft": [
+      {
+        "t": "allZero",
+        "f": [
+          "UnderlyingLiabilityPremium"
+        ],
+        "msg": "Underlying Liability Premium Must Be Greater Than 0",
+        "offPage": []
+      }
+    ],
+    "Other Liability": [
+      {
+        "t": "allZero",
+        "f": [
+          "UnderlyingLiabilityPremium"
+        ],
+        "msg": "Underlying Liability Premium Must Be Greater Than 0",
+        "offPage": []
+      }
+    ]
+  }
+}

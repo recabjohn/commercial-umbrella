@@ -1,0 +1,50 @@
+Name,Type,XmlType,BureauRuleNumber,NKeys,NEntries,Sample
+Act,picklist,,,0,6,Not Applicable|Completion|Disposal|Distribution|Manufacture|Sale
+BoatType,picklist,,,0,0,
+CityTown,picklist,,,1,0,
+Constant,picklist,,,0,1,Y
+ConstructionCode,picklist,,,1,0,
+ConstructionType,picklist,,,0,0,
+County,picklist,,,2,0,
+CoverageForm,picklist,,27.A,0,2,Occurrence|Claims Made
+CoverageFormNotApplicable,picklist,,27.A,0,3,Occurrence|Claims Made|Not Applicable
+Deduct,picklist,,,0,0,
+ElectronicSignature,picklist,,,0,0,
+ExcludeInclude,picklist,,,0,0,
+FireClassificationCode,picklist,,,1,0,
+JudgementRatingFactor,picklist,,,0,0,
+LegalEntity,picklist,,,0,28,Association|C Corporation|Common Ownership|Corporation|Domestic Profit Corporation|Executor or Trustee
+LiabilityLimit,picklist,,,0,81,"10,000|15,000|20,000|25,000|30,000|35,000"
+LiabilityLimit1Million,picklist,,,0,0,
+LiabilityLimit1MillionNotApplicable,picklist,,,0,0,
+LiabilityLimit2MillionNotApplicable,picklist,,,0,0,
+LiabilityLimitEL,picklist,,,0,12,"100,000|500,000|1,000,000|2,000,000|3,000,000|4,000,000"
+LiabilityLimitELAggregate,picklist,,,0,11,"500,000|1,000,000|2,000,000|3,000,000|4,000,000|5,000,000"
+LiabilityLimitNotApplicable,picklist,,,0,82,"Not Applicable|10,000|15,000|20,000|25,000|30,000"
+LiabLimit,picklist,,,0,0,
+Limit,picklist,,,0,5,"1,000,000|2,000,000|3,000,000|4,000,000|5,000,000"
+MedPayLimit,picklist,,,0,0,
+OccupancyType,picklist,,,0,0,
+Occupation,picklist,,,0,0,
+PaymentAgencyBillMethod,picklist,,,0,0,
+PaymentBillToType,picklist,,,0,0,
+PaymentBillType,picklist,,,0,0,
+PaymentCreditCardCompany,picklist,,,0,0,
+PaymentCreditCardType,picklist,,,0,0,
+PaymentDelivery,picklist,,,0,0,
+PaymentDownPaymentFeeIndicator,picklist,,,0,0,
+PaymentDownPaymentType,picklist,,,0,0,
+PaymentEFTAccountType,picklist,,,0,0,
+PaymentFollowOnPaymentType,picklist,,,0,0,
+PaymentPlan,picklist,,,0,0,
+PaymentType,picklist,,,0,0,
+PolicyCoverageForm,picklist,,22; 50,0,3,Commercial Umbrella Coverage Form|Commercial Excess Liability Coverage Form|Commercial Umbrella Coverage Form and Commercial Excess Liability Coverage Form
+PolicyForm,picklist,,,0,0,
+RiskType,picklist,,,0,9,Apartment House|Contracting|Industrial/Processing|Institutional|Mercantile|Motel/Hotel
+State,picklist,,,0,0,
+StateFullName,picklist,,,0,0,
+UMBILimit,picklist,,,1,0,
+UMLiabLimit,picklist,,,1,0,
+UnderlyingPolicyType,picklist,,,0,0,
+YearPickList,picklist,,,0,0,
+YesNo,picklist,,,0,2,No|Yes

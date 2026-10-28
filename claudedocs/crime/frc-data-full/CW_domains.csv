@@ -1,0 +1,134 @@
+Table,Title,Type,Data Type,Size,Scale,Xml Type,Bureau Rule Number,Comment,Masked
+AddDelete,Add or Delete,picklist,Text,24,,,27.C.1.m; 27.C.1.n; 42.C.1.c; 42.C.1.d; 57.C.1.o; 57.C.1.p; 58.C.1.n; 58.C.1.o; 72.C.2; 72.C.3; 84.C.1.m; 84.C.1.n; 88.C.1.c; 88.C.1.d; 94.C.1.o; 94.C.1.p; 95.C.1.n; 95.C.1.o; 98.C.2; 98.C.3,,No
+AddPropertyOfOthersInsgAgrmtType,Add Property Of Others Insuring Agreement Types,picklist,Text,100,,,CR3520,CR3520 ,No
+AddScheduleExcessLimitForSpecifiedInsgAgrmtType,Add Schedule Excess Limit For Specified Insuring Agreement Types,picklist,Text,100,,,CR2534,CR2534,No
+AddWarehouseReceiptsForgeryDed,Add Warehouse Receipts Forgery Deductible,range,Integer,,,,,,No
+AlarmTypeYesNo,Alarm Type Yes or No,picklist,Text,3,,,,Used for page fields that utilize Alarm Type for Yes/No Domain,No
+AutomotiveProductType,Include Automotive Products In Outside Containers - Product Type,picklist,Text,35,,,,,No
+BoatType,Type of Boat,picklist,Text,128,,,,,No
+City,City/Town,picklist,Text,128,,,,,No
+CityTown,City Town,picklist,Text,128,,,,,No
+ClassCode,Crime Class Code,picklist,Text,8,,,Class Table,,No
+ClassCodeforClassDesc,Class Code for Class Description,picklist,Text,8,,,,,No
+ClassDescription,Class Description,picklist,Text,128,,,Class Table,,No
+ClassDescription2,Class Description,picklist,Text,128,,,,,No
+ClassOfPersons,Class Of Persons,picklist,Text,16,,,32.C.1.d.(2); 39.C.1.d.(2); 40.C.1.d.(2); 61.C.4.b;  69.C.4.b; 70.C.4.b,,No
+CoindemnityInsgAgrmtType,Coindemnity Insuring Agreement Type,picklist,Text,72,,,,,No
+CommlCrimeInsuringAgreements,Commercial Crime Insuring Agreements,picklist,Text,128,,,13.C.8,,No
+CommlFidelityInsuringAgreements,Commercial Fidelity Insuring Agreements,picklist,Text,128,,,13.C.8,,No
+Constant,Constant,picklist,Text,128,,,,,No
+ConstructionCode,Construction Code,picklist,Text,128,,,,,No
+ConstructionType,Type of Construction,picklist,Text,128,,,,,No
+ContributingInsIncluded,Contributing Insurance Applies,picklist,Text,32,,,,,No
+ConvertToSchedCovInsgAgrmtTypes,Convert To Schedule Coverage Insuring Agreement Types,picklist,Text,120,,,,,No
+County,County,picklist,Text,128,,,,,Yes
+CovdInstrmtLimit,Covered Instrument Limit,range,Integer,,,,,,No
+CovdInstrmtSelect,Covered Instruments,picklist,Text,16,,,32.C.1.d.(2); 39.C.1.d.(2); 40.C.1.d.(2); 61.C.4.b;  69.C.4.b; 70.C.4.b,,No
+CoverageLimit,Coverage Limit,range,Integer,,,,,,No
+CoverageTitle,Coverage Title,picklist,Text,65,,,,,No
+CoveredProp,Covered Property,picklist,Text,35,,,31.C.1.f; 33.C.1.g; 41.C.1.f; 60.C.6; 62.C.7;  71.C.6,,No
+CrimePremisesInsuringAgreements,Premises Specific Crime Insuring Agreements,picklist,Text,120,,,,,No
+DecreaseLimitWhileNotOpenForBusinessInsgAgrmtType,Decrease Limit Of Insurance While Premises Not Open For Business Insuring Agreement Types,picklist,Text,100,,,CR3515,CR3515 ,No
+Ded,Deductible,picklist,Integer,,,,14.A.(RF); 14.B.(RF); 14.C.(RF),,No
+Deduct,Deductible,picklist,Text,128,,,,,No
+DeductibleLimit,Deductible Limit,range,Integer,,,,,,No
+DepositoryType,Securities Deposited With Others - Depository Type,picklist,Text,24,,,44.A; 73.A,,No
+DescriptionOfLoss,Description Of Loss,picklist,Text,100,,,108.A,,No
+DetailNumber,Detail Number,picklist,Integer,,,,,,No
+ElectronicSignature,Electronic Signature,picklist,Text,8,,,,,No
+EmpTheftForgeryInsuringAgreements,Employee Theft and Forgery Insuring Agreements,picklist,Text,128,,,13.C.8,,No
+EmpTheftNamePositionScheduleNumEmpsERISA,Employee Theft - Name or Position Schedule Number ERISA Employees,range,Integer,,,,,,No
+EmpType,Employee Type,picklist,Text,40,,,27.C.1.f; 27.C.2.b.(1); 27.C.2.d.(1);  57.C.1.g; 57.C.1.h; 58.C.1.f; 58.C.1.g; 84.C.1.f; 84.C.2.b.(1); 84.C.2.d.(1); 94.C.1.g; 94.C.1.h; 95.C.1.f; 95.C.1.g,,No
+EntityType,Entity Type,picklist,Text,16,,,,,No
+ExcludeSpecdPropInsgAgrmtType,Exclude Specified Property Insuring Agreement Types,picklist,Text,120,,,29.C.1.e; 30.C.1.d.(1); 31.C.1.f; 32.C.2; 39.C.1.d.(1); 40.C.1.d.(1); 41.C.1.e; 60.C.5; 61.C.4.a; 62.C.6; 63.C.2; 69.C.4.a; 70.C.4.a; 71.C.5,,No
+FaithfulDutyCovClassification,Add Faithful Performance Of Duty Coverage Classification,picklist,Text,18,,,27.C.2.b.(2); 27.C.2.d.(2); 42.C.1.b; 84.C.2.b.(2); 84.C.2.d.(2); 88.C.1.b,,No
+FireClassificationCode,Fire Classification Code,picklist,Text,128,,,,,No
+ForgeryOfPaymentCardInstrumentsCoverageLimit,Forgery Of Payment Card Instruments Coverage Limit,range,Integer,,,,,,No
+FraudulentImpersonationCategory,Fraudulent Impersonation Category,picklist,Text,50,,,,,No
+GovernmentEmployeeTheftType,Government Employee Theft Type,picklist,Text,50,,,,,No
+GovtCrimeInsuringAgreements,Government Crime Insuring Agreements,picklist,Text,128,,,13.C.8,,No
+GovtEmpTheftForgeryInsuringAgreements,Government Employee Theft and Forgery Insuring Agreements,picklist,Text,128,,,13.C.8,,No
+GovtFidelityEmpTheftCompuFraudInsuringAgreements,Government Fidelity Employee Theft Computer Fraud Insuring Agreements,picklist,Text,35,,,27.C.1.h; 34.C.1; 57.C.1.j; 58.C.1.i; 63.C.1; 84.C.1.h; 94.C.1.j; 95.C.1.i,,No
+GovtFidelityEmpTheftInsuringAgreements,Government Fidelity Employee Theft Insuring Agreements,picklist,Text,35,,,,,No
+GovtFidelityInsuringAgreements,Government Fidelity Insuring Agreements,picklist,Text,128,,,13.C.8,,No
+GuestsPropIncreaseLimitPerGuest,Guests' Property - Increase Limit Of Insurance Per Guest,picklist,Integer,,,,,,No
+GuestsPropIncreaseLimitPerOccurence,Guests' Property - Increase Limit Of Insurance Per Occurence,picklist,Integer,,,,,,No
+GuestsPropIncreaseLimitPerOccurrence,Guests' Property - Increase Limit Of Insurance Per Occurrence,picklist,Integer,,,,,,No
+GuestsPropLimitPerGuest,Guests' Property - Limit of Insurance per Guest,range,Integer,,,,,,No
+GuestsPropLocCovdProp,Guests' Property - Location of Covered Property,picklist,Text,24,,,,,No
+IncldExpensesIncurredInsgAgrmtType,Include Expenses Incurred Insuring Agreements,picklist,Text,40,,,,,No
+IncldExpensesIncurredInsgAgrmtTypeGovernment,Include Expenses Incurred Insuring Agreements Government,picklist,Text,40,,,,,No
+IncludeAutoProdsLimit,Include Auto Products In Outside Containers Limit,picklist,Integer,,,,,,No
+IncrLimitSpecdPropSubjToSpclLimitInsgAgrmt,Increase Limit For Specified Property Subject To Special Limit Of Insurance Insuring Agreement,picklist,Text,120,,,,,No
+InsideAndOutsideThePremisesInsgAgrmtType,Insdie And Outside The Premises Insuring Agreement Types,picklist,Text,100,,,CR3524; CR3527,"CR3524,CR3527 ",No
+InsideThePremisesInsgAgrmtType,Insdie The Premises Insuring Agreement Types,picklist,Text,100,,,"CR3513, CR3514, CR3523, CR3526","CR3513, CR3514, CR3523, CR3526 ",No
+InsuredPersonBenefit,Insured Person Benefit,picklist,Text,100,,,108.A,,No
+InsuringAgreement,Insuring Agreement,picklist,Text,128,,,,,No
+InsuringAgreements,Insuring Agreements,picklist,Text,80,,,27.C.2.b.(2); 27.C.2.d.(2); 42.C.1.b; 84.C.2.b.(2); 84.C.2.d.(2); 88.C.1.b,,No
+KidnapIRPMFivePctMod,Kidnap/Ransom And Extortion - Five Percent IRPM,picklist,Text,4,,,KRIRPM 3,,No
+KidnapIRPMTenPctMod,Kidnap/Ransom And Extortion - Ten Percent IRPM,picklist,Text,4,,,KRIRPM 3,,No
+KidnapRansomBusnIncomeTimePeriod,Kidnap Ransom And Extortion - Business Income And Extra Expense - Time Period,picklist,Text,16,,,109.B.2.e.(RF),,No
+LegalEntity,Legal Entity,picklist,Text,36,,,,,No
+LesseesLocCovdProp,Lessees Of Safe Deposit Boxes Location Of Covered Property,picklist,Text,80,,,,,No
+LesseesSafeDepositBoxesCovType,Lessees of Safe Deposit Boxes Coverage Type,picklist,Text,24,,,,,No
+LiabLimit,Liability Limit,picklist,Text,128,,,,,No
+LimitCoverageInsuringAgreement,Limit Coverage Insuring Agreement,picklist,Text,120,,,,,No
+LimitCovToFixturesPropertyType,Limit Coverage To Fixtures Fittings Or Appliances Property Type,picklist,Text,60,,,,,No
+LimitPerGuest,Limit Per Guest,picklist,Integer,,,,45.A,,No
+LimitPerOccurence,Limit Per Occurence,picklist,Integer,,,,45.A,,No
+MajorIndustryGroup,Major Industry Group,picklist,Text,80,,,Class Table,,No
+MedPayLimit,Medical Payments Limit,picklist,Text,128,,,,,No
+MonolineCoverageType,Monoline Coverage Type,picklist,Text,40,,,,,No
+MonolinePolicyType,Monoline Policy Type,picklist,Text,40,,,,,No
+NameOrPositionScheduleCoverage,Name Or Position Schedule Coverage,picklist,Text,32,,,27.C.1.m; 27.C.1.n; 42.A; 42.C.1.c; 42.C.1.d; 57.C.1.o;  57.C.1.p; 58.C.1.n; 58.C.1.o; 72.A; 72.C.2; 72.C.3; 84.C.1.m; 84.C.1.n; 88.A; 88.C.1.c; 88.C.1.d; 94.C.1.o; 94.C.1.p;  95.C.1.n; 95.C.1.o; 98.A; 98.C.2; 98.C.3,,No
+NamePositionScheduleNumEmps,Name or Position Schedule Number of Employees,range,Integer,,,,,,No
+NumberOfRooms,Number Of Rooms,range,Integer,,,,45.A,,No
+NumberOfYearsOfExperience,Number Of Years Of Experience,picklist,Text,10,,,CRES 6.A,,No
+OccupancyType,Occupancy Type,picklist,Text,128,,,,,No
+Occupation,Occupation,picklist,Text,128,,,,,No
+OptionalForm,Optional Form,picklist,Text,160,,,,,No
+OptionalFormDetailNumber,Optional Form Detail Number,picklist,Text,16,,,,,No
+PackageCoverageType,Package Coverage Type,picklist,Text,80,,,,,No
+PackagePolicyType,Commercial Package Policy Type,picklist,Text,80,,,,,No
+PaymentAgencyBillMethod,Payment Agency Bill Method,picklist,Text,32,,,,,No
+PaymentBillToType,Payment Bill To Type,picklist,Text,32,,,,,No
+PaymentBillType,Payment Bill Type,picklist,Text,32,,,,,No
+PaymentCreditCardCompany,Payment Credit Card Company,picklist,Text,128,,,,,No
+PaymentCreditCardType,PaymentCreditCardType,picklist,Text,32,,,,,No
+PaymentDelivery,Payment Delivery,picklist,Text,32,,,,,No
+PaymentDownPaymentFeeIndicator,Payment Down Payment Fee Indicator,picklist,Text,3,,,,,No
+PaymentDownPaymentType,Payment Down Payment Type,picklist,Text,32,,,,,No
+PaymentEFTAccountType,Payment EFT Account Type,picklist,Text,32,,,,,No
+PaymentFollowOnPaymentType,Payment Follow On Payment Type,picklist,Text,32,,,,,No
+PaymentPlan,Payment Plan,picklist,Text,128,,,,,Yes
+PaymentType,Payment Type,picklist,Text,32,,,,,No
+PolicyForm,Policy Form,picklist,Text,128,,,,,No
+PredominantActivity,Predominant Activity,picklist,Text,128,,,Class Table,,No
+ProtectiveDeviceBurglarAlarmType,Protective Device - Burglar Alarm Type,picklist,Text,30,,,13.C.20,,No
+ProvideSublimitsForMoneySecuritiesInsgAgrmtType,"Provide Sublimits For Money, Securities Or Checks Insuring Agreement Types",picklist,Text,100,,,CR3531,CR3531 ,No
+RatingTier,Rating Tier,picklist,Text,10,,,,,No
+RiskType,Risk Type,picklist,Text,80,,,,,No
+SafeDepositBoxCovLimit,Guests Property Or Safe Depository - Safe Deposit Box Coverage Limit,picklist,Integer,,,,45.A; 46.A,,No
+SafeDepositBoxTransferTimePeriod,Safe Deposit Box Transfer Time Period,picklist,Text,20,,,46.B.1.b,,No
+SafeDepositoryCovType,Safe Depository Coverage Type,picklist,Text,80,,,,,No
+SafeDepositoryDed,Safe Depository Ded,picklist,Text,128,,,,,No
+SafeDepositoryDedAmt,Safe Depository - Deductible Amount,range,Integer,,,,,,No
+SafeDepositoryLimit,Safe Depository Boxes Coverage Limit,picklist,Integer,,,,,,No
+ScheduleDeduct,Deductible,picklist,Text,16,,,,,No
+ScheduleRatingFifteenPctMod,Fifteen Percent Schedule Rating Modification,picklist,Text,4,,,CRES 10.A; 10.B,,No
+ScheduleRatingSevenPctMod,Seven Percent Schedule Rating Modification,picklist,Text,4,,,CRES 10.A,,No
+ScheduleRatingSixPctMod,Six Percent Schedule Rating Modification,picklist,Text,4,,,CRES 10.A,,No
+ScheduleRatingTenPctMod,Ten Percent Schedule Rating Modification,picklist,Text,4,,,CRES 10.B,,No
+ScheduleRatingTwentyPctMod,Twenty Percent Schedule Rating Modification,picklist,Text,4,,,CRES 10.A,,No
+ScheduleType,Schedule Type,picklist,Text,80,,,27.C.1.f; 27.C.2.b.(1); 27.C.2.d.(1);  57.C.1.g; 57.C.1.h; 58.C.1.f; 58.C.1.g; 84.C.1.f; 84.C.2.b.(1); 84.C.2.d.(1); 94.C.1.g; 94.C.1.h; 95.C.1.f; 95.C.1.g,,No
+State,State,picklist,Text,24,,,21. A.2.a; 21. A.2.b; 21. A.2.c,,Yes
+StateFullName,State,picklist,Text,128,,,,,No
+TerritoryCounty,Territory Or County,picklist,Text,128,,,,,No
+TerrTier,Territory Tier,picklist,Text,16,,,,,No
+TheftOutdoorSignsInsuringAgreements,Include Theft Of Outdoor Signs - Insuring Agreements,picklist,Text,128,,,,,No
+UMBILimit,Uninsured Motorist Bodily Injury,picklist,Text,128,,,,,No
+UMLiabLimit,Uninsured Motorist Liability Limit,picklist,Text,128,,,,,No
+VirtualCurrencyInsuringAgreement,Virtual Currency Insuring Agreement,picklist,Text,50,,,,,No
+YearPickList,Year,picklist,Text,128,,,,,No
+YesNo,Yes or No,picklist,Text,128,,,,,No
+ZipCode,Zip Code,picklist,Text,10,,,,,No

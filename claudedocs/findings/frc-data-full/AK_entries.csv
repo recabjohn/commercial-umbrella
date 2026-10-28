@@ -1,0 +1,260 @@
+Table,Sequence,DisplayValue,DataValue,Status
+Domain Table,,,,
+Act,Sequence,Display Value,DataValue,Status
+Act,1,Not Applicable,Not Applicable,Inherited
+Act,2,Completion,Completion,Inherited
+Act,3,Disposal,Disposal,Inherited
+Act,4,Distribution,Distribution,Inherited
+Act,5,Manufacture,Manufacture,Inherited
+Act,6,Sale,Sale,Inherited
+Constant,Sequence,Display Value,DataValue,Status
+Constant,1,Y,Y,Inherited
+CoverageForm,Sequence,Display Value,DataValue,Status
+CoverageForm,1,Occurrence,Occurrence,Inherited
+CoverageForm,2,Claims Made,Claims Made,Inherited
+CoverageFormNotApplicable,Sequence,Display Value,DataValue,Status
+CoverageFormNotApplicable,1,Occurrence,Occurrence,Inherited
+CoverageFormNotApplicable,2,Claims Made,Claims Made,Inherited
+CoverageFormNotApplicable,3,Not Applicable,Not Applicable,Inherited
+LegalEntity,Sequence,Display Value,DataValue,Status
+LegalEntity,1,Association,Association,Inherited
+LegalEntity,2,C Corporation,C Corporation,Inherited
+LegalEntity,3,Common Ownership,Common Ownership,Inherited
+LegalEntity,4,Corporation,Corporation,Inherited
+LegalEntity,5,Domestic Profit Corporation,Domestic Profit Corporation,Inherited
+LegalEntity,6,Executor or Trustee,Executor or Trustee,Inherited
+LegalEntity,7,Foreign Corporation,Foreign Corporation,Inherited
+LegalEntity,8,Foreign Limited Liability Corporation,Foreign Limited Liability Corporation,Inherited
+LegalEntity,9,Foreign Limited Partnership,Foreign Limited Partnership,Inherited
+LegalEntity,10,General Partnership,General Partnership,Inherited
+LegalEntity,11,Governmental Unit,Governmental Unit,Inherited
+LegalEntity,12,Individual,Individual,Inherited
+LegalEntity,13,Joint Employers,Joint Employers,Inherited
+LegalEntity,14,Joint Venture,Joint Venture,Inherited
+LegalEntity,15,Labor Union,Labor Union,Inherited
+LegalEntity,16,Limited Corporation,Limited Corporation,Inherited
+LegalEntity,17,Limited Liability Company,Limited Liability Company,Inherited
+LegalEntity,18,Limited Liability Partnership,Limited Liability Partnership,Inherited
+LegalEntity,19,Limited Partnership,Limited Partnership,Inherited
+LegalEntity,20,Multiple Status,Multiple Status,Inherited
+LegalEntity,21,Nonprofit Corporation,Nonprofit Corporation,Inherited
+LegalEntity,22,Other,Other,Inherited
+LegalEntity,23,Partnership,Partnership,Inherited
+LegalEntity,24,Professional Corporation,Professional Corporation,Inherited
+LegalEntity,25,Religious Organization,Religious Organization,Inherited
+LegalEntity,26,S Corporation,S Corporation,Inherited
+LegalEntity,27,Sole Proprietor,Sole Proprietor,Inherited
+LegalEntity,28,Trust or Estate,Trust or Estate,Inherited
+LiabilityLimit,Sequence,Display Value,DataValue,Status
+LiabilityLimit,1,"10,000","10,000",Inherited
+LiabilityLimit,2,"15,000","15,000",Inherited
+LiabilityLimit,3,"20,000","20,000",Inherited
+LiabilityLimit,4,"25,000","25,000",Inherited
+LiabilityLimit,5,"30,000","30,000",Inherited
+LiabilityLimit,6,"35,000","35,000",Inherited
+LiabilityLimit,7,"40,000","40,000",Inherited
+LiabilityLimit,8,"45,000","45,000",Inherited
+LiabilityLimit,9,"50,000","50,000",Inherited
+LiabilityLimit,10,"55,000","55,000",Inherited
+LiabilityLimit,11,"60,000","60,000",Inherited
+LiabilityLimit,12,"65,000","65,000",Inherited
+LiabilityLimit,13,"70,000","70,000",Inherited
+LiabilityLimit,14,"75,000","75,000",Inherited
+LiabilityLimit,15,"80,000","80,000",Inherited
+LiabilityLimit,16,"85,000","85,000",Inherited
+LiabilityLimit,17,"90,000","90,000",Inherited
+LiabilityLimit,18,"95,000","95,000",Inherited
+LiabilityLimit,19,"100,000","100,000",Inherited
+LiabilityLimit,20,"125,000","125,000",Inherited
+LiabilityLimit,21,"150,000","150,000",Inherited
+LiabilityLimit,22,"175,000","175,000",Inherited
+LiabilityLimit,23,"200,000","200,000",Inherited
+LiabilityLimit,24,"225,000","225,000",Inherited
+LiabilityLimit,25,"250,000","250,000",Inherited
+LiabilityLimit,26,"275,000","275,000",Inherited
+LiabilityLimit,27,"300,000","300,000",Inherited
+LiabilityLimit,28,"325,000","325,000",Inherited
+LiabilityLimit,29,"350,000","350,000",Inherited
+LiabilityLimit,30,"375,000","375,000",Inherited
+LiabilityLimit,31,"400,000","400,000",Inherited
+LiabilityLimit,32,"425,000","425,000",Inherited
+LiabilityLimit,33,"450,000","450,000",Inherited
+LiabilityLimit,34,"475,000","475,000",Inherited
+LiabilityLimit,35,"500,000","500,000",Inherited
+LiabilityLimit,36,"525,000","525,000",Inherited
+LiabilityLimit,37,"550,000","550,000",Inherited
+LiabilityLimit,38,"575,000","575,000",Inherited
+LiabilityLimit,39,"600,000","600,000",Inherited
+LiabilityLimit,40,"625,000","625,000",Inherited
+LiabilityLimit,41,"650,000","650,000",Inherited
+LiabilityLimit,42,"675,000","675,000",Inherited
+LiabilityLimit,43,"700,000","700,000",Inherited
+LiabilityLimit,44,"725,000","725,000",Inherited
+LiabilityLimit,45,"750,000","750,000",Inherited
+LiabilityLimit,46,"775,000","775,000",Inherited
+LiabilityLimit,47,"800,000","800,000",Inherited
+LiabilityLimit,48,"825,000","825,000",Inherited
+LiabilityLimit,49,"850,000","850,000",Inherited
+LiabilityLimit,50,"875,000","875,000",Inherited
+LiabilityLimit,51,"900,000","900,000",Inherited
+LiabilityLimit,52,"925,000","925,000",Inherited
+LiabilityLimit,53,"950,000","950,000",Inherited
+LiabilityLimit,54,"975,000","975,000",Inherited
+LiabilityLimit,55,"1,000,000","1,000,000",Inherited
+LiabilityLimit,56,"1,500,000","1,500,000",Inherited
+LiabilityLimit,57,"2,000,000","2,000,000",Inherited
+LiabilityLimit,58,"2,500,000","2,500,000",Inherited
+LiabilityLimit,59,"3,000,000","3,000,000",Inherited
+LiabilityLimit,60,"3,500,000","3,500,000",Inherited
+LiabilityLimit,61,"4,000,000","4,000,000",Inherited
+LiabilityLimit,62,"4,500,000","4,500,000",Inherited
+LiabilityLimit,63,"5,000,000","5,000,000",Inherited
+LiabilityLimit,64,"5,500,000","5,500,000",Inherited
+LiabilityLimit,65,"6,000,000","6,000,000",Inherited
+LiabilityLimit,66,"6,500,000","6,500,000",Inherited
+LiabilityLimit,67,"7,000,000","7,000,000",Inherited
+LiabilityLimit,68,"7,500,000","7,500,000",Inherited
+LiabilityLimit,69,"8,000,000","8,000,000",Inherited
+LiabilityLimit,70,"8,500,000","8,500,000",Inherited
+LiabilityLimit,71,"9,000,000","9,000,000",Inherited
+LiabilityLimit,72,"9,500,000","9,500,000",Inherited
+LiabilityLimit,73,"10,000,000","10,000,000",Inherited
+LiabilityLimit,74,"15,000,000","15,000,000",Inherited
+LiabilityLimit,75,"20,000,000","20,000,000",Inherited
+LiabilityLimit,76,"25,000,000","25,000,000",Inherited
+LiabilityLimit,77,"30,000,000","30,000,000",Inherited
+LiabilityLimit,78,"35,000,000","35,000,000",Inherited
+LiabilityLimit,79,"40,000,000","40,000,000",Inherited
+LiabilityLimit,80,"45,000,000","45,000,000",Inherited
+LiabilityLimit,81,"50,000,000","50,000,000",Inherited
+LiabilityLimitEL,Sequence,Display Value,DataValue,Status
+LiabilityLimitEL,1,"100,000","100,000",Inherited
+LiabilityLimitEL,2,"500,000","500,000",Inherited
+LiabilityLimitEL,3,"1,000,000","1,000,000",Inherited
+LiabilityLimitEL,4,"2,000,000","2,000,000",Inherited
+LiabilityLimitEL,5,"3,000,000","3,000,000",Inherited
+LiabilityLimitEL,6,"4,000,000","4,000,000",Inherited
+LiabilityLimitEL,7,"5,000,000","5,000,000",Inherited
+LiabilityLimitEL,8,"6,000,000","6,000,000",Inherited
+LiabilityLimitEL,9,"7,000,000","7,000,000",Inherited
+LiabilityLimitEL,10,"8,000,000","8,000,000",Inherited
+LiabilityLimitEL,11,"9,000,000","9,000,000",Inherited
+LiabilityLimitEL,12,"10,000,000","10,000,000",Inherited
+LiabilityLimitELAggregate,Sequence,Display Value,DataValue,Status
+LiabilityLimitELAggregate,1,"500,000","500,000",Inherited
+LiabilityLimitELAggregate,2,"1,000,000","1,000,000",Inherited
+LiabilityLimitELAggregate,3,"2,000,000","2,000,000",Inherited
+LiabilityLimitELAggregate,4,"3,000,000","3,000,000",Inherited
+LiabilityLimitELAggregate,5,"4,000,000","4,000,000",Inherited
+LiabilityLimitELAggregate,6,"5,000,000","5,000,000",Inherited
+LiabilityLimitELAggregate,7,"6,000,000","6,000,000",Inherited
+LiabilityLimitELAggregate,8,"7,000,000","7,000,000",Inherited
+LiabilityLimitELAggregate,9,"8,000,000","8,000,000",Inherited
+LiabilityLimitELAggregate,10,"9,000,000","9,000,000",Inherited
+LiabilityLimitELAggregate,11,"10,000,000","10,000,000",Inherited
+LiabilityLimitNotApplicable,Sequence,Display Value,DataValue,Status
+LiabilityLimitNotApplicable,1,Not Applicable,Not Applicable,Inherited
+LiabilityLimitNotApplicable,2,"10,000","10,000",Inherited
+LiabilityLimitNotApplicable,3,"15,000","15,000",Inherited
+LiabilityLimitNotApplicable,4,"20,000","20,000",Inherited
+LiabilityLimitNotApplicable,5,"25,000","25,000",Inherited
+LiabilityLimitNotApplicable,6,"30,000","30,000",Inherited
+LiabilityLimitNotApplicable,7,"35,000","35,000",Inherited
+LiabilityLimitNotApplicable,8,"40,000","40,000",Inherited
+LiabilityLimitNotApplicable,9,"45,000","45,000",Inherited
+LiabilityLimitNotApplicable,10,"50,000","50,000",Inherited
+LiabilityLimitNotApplicable,11,"55,000","55,000",Inherited
+LiabilityLimitNotApplicable,12,"60,000","60,000",Inherited
+LiabilityLimitNotApplicable,13,"65,000","65,000",Inherited
+LiabilityLimitNotApplicable,14,"70,000","70,000",Inherited
+LiabilityLimitNotApplicable,15,"75,000","75,000",Inherited
+LiabilityLimitNotApplicable,16,"80,000","80,000",Inherited
+LiabilityLimitNotApplicable,17,"85,000","85,000",Inherited
+LiabilityLimitNotApplicable,18,"90,000","90,000",Inherited
+LiabilityLimitNotApplicable,19,"95,000","95,000",Inherited
+LiabilityLimitNotApplicable,20,"100,000","100,000",Inherited
+LiabilityLimitNotApplicable,21,"125,000","125,000",Inherited
+LiabilityLimitNotApplicable,22,"150,000","150,000",Inherited
+LiabilityLimitNotApplicable,23,"175,000","175,000",Inherited
+LiabilityLimitNotApplicable,24,"200,000","200,000",Inherited
+LiabilityLimitNotApplicable,25,"225,000","225,000",Inherited
+LiabilityLimitNotApplicable,26,"250,000","250,000",Inherited
+LiabilityLimitNotApplicable,27,"275,000","275,000",Inherited
+LiabilityLimitNotApplicable,28,"300,000","300,000",Inherited
+LiabilityLimitNotApplicable,29,"325,000","325,000",Inherited
+LiabilityLimitNotApplicable,30,"350,000","350,000",Inherited
+LiabilityLimitNotApplicable,31,"375,000","375,000",Inherited
+LiabilityLimitNotApplicable,32,"400,000","400,000",Inherited
+LiabilityLimitNotApplicable,33,"425,000","425,000",Inherited
+LiabilityLimitNotApplicable,34,"450,000","450,000",Inherited
+LiabilityLimitNotApplicable,35,"475,000","475,000",Inherited
+LiabilityLimitNotApplicable,36,"500,000","500,000",Inherited
+LiabilityLimitNotApplicable,37,"525,000","525,000",Inherited
+LiabilityLimitNotApplicable,38,"550,000","550,000",Inherited
+LiabilityLimitNotApplicable,39,"575,000","575,000",Inherited
+LiabilityLimitNotApplicable,40,"600,000","600,000",Inherited
+LiabilityLimitNotApplicable,41,"625,000","625,000",Inherited
+LiabilityLimitNotApplicable,42,"650,000","650,000",Inherited
+LiabilityLimitNotApplicable,43,"675,000","675,000",Inherited
+LiabilityLimitNotApplicable,44,"700,000","700,000",Inherited
+LiabilityLimitNotApplicable,45,"725,000","725,000",Inherited
+LiabilityLimitNotApplicable,46,"750,000","750,000",Inherited
+LiabilityLimitNotApplicable,47,"775,000","775,000",Inherited
+LiabilityLimitNotApplicable,48,"800,000","800,000",Inherited
+LiabilityLimitNotApplicable,49,"825,000","825,000",Inherited
+LiabilityLimitNotApplicable,50,"850,000","850,000",Inherited
+LiabilityLimitNotApplicable,51,"875,000","875,000",Inherited
+LiabilityLimitNotApplicable,52,"900,000","900,000",Inherited
+LiabilityLimitNotApplicable,53,"925,000","925,000",Inherited
+LiabilityLimitNotApplicable,54,"950,000","950,000",Inherited
+LiabilityLimitNotApplicable,55,"975,000","975,000",Inherited
+LiabilityLimitNotApplicable,56,"1,000,000","1,000,000",Inherited
+LiabilityLimitNotApplicable,57,"1,500,000","1,500,000",Inherited
+LiabilityLimitNotApplicable,58,"2,000,000","2,000,000",Inherited
+LiabilityLimitNotApplicable,59,"2,500,000","2,500,000",Inherited
+LiabilityLimitNotApplicable,60,"3,000,000","3,000,000",Inherited
+LiabilityLimitNotApplicable,61,"3,500,000","3,500,000",Inherited
+LiabilityLimitNotApplicable,62,"4,000,000","4,000,000",Inherited
+LiabilityLimitNotApplicable,63,"4,500,000","4,500,000",Inherited
+LiabilityLimitNotApplicable,64,"5,000,000","5,000,000",Inherited
+LiabilityLimitNotApplicable,65,"5,500,000","5,500,000",Inherited
+LiabilityLimitNotApplicable,66,"6,000,000","6,000,000",Inherited
+LiabilityLimitNotApplicable,67,"6,500,000","6,500,000",Inherited
+LiabilityLimitNotApplicable,68,"7,000,000","7,000,000",Inherited
+LiabilityLimitNotApplicable,69,"7,500,000","7,500,000",Inherited
+LiabilityLimitNotApplicable,70,"8,000,000","8,000,000",Inherited
+LiabilityLimitNotApplicable,71,"8,500,000","8,500,000",Inherited
+LiabilityLimitNotApplicable,72,"9,000,000","9,000,000",Inherited
+LiabilityLimitNotApplicable,73,"9,500,000","9,500,000",Inherited
+LiabilityLimitNotApplicable,74,"10,000,000","10,000,000",Inherited
+LiabilityLimitNotApplicable,75,"15,000,000","15,000,000",Inherited
+LiabilityLimitNotApplicable,76,"20,000,000","20,000,000",Inherited
+LiabilityLimitNotApplicable,77,"25,000,000","25,000,000",Inherited
+LiabilityLimitNotApplicable,78,"30,000,000","30,000,000",Inherited
+LiabilityLimitNotApplicable,79,"35,000,000","35,000,000",Inherited
+LiabilityLimitNotApplicable,80,"40,000,000","40,000,000",Inherited
+LiabilityLimitNotApplicable,81,"45,000,000","45,000,000",Inherited
+LiabilityLimitNotApplicable,82,"50,000,000","50,000,000",Inherited
+Limit,Sequence,Display Value,DataValue,Status
+Limit,1,"1,000,000","1,000,000",Inherited
+Limit,2,"2,000,000","2,000,000",Inherited
+Limit,3,"3,000,000","3,000,000",Inherited
+Limit,4,"4,000,000","4,000,000",Inherited
+Limit,5,"5,000,000","5,000,000",Inherited
+PolicyCoverageForm,Sequence,Display Value,DataValue,Status
+PolicyCoverageForm,1,Commercial Umbrella Coverage Form,Commercial Umbrella Coverage Form,Inherited
+PolicyCoverageForm,2,Commercial Excess Liability Coverage Form,Commercial Excess Liability Coverage Form,Inherited
+PolicyCoverageForm,3,Commercial Umbrella Coverage Form and Commercial Excess Liability Coverage Form,Commercial Umbrella Coverage Form and Commercial Excess Liability Coverage Form,Inherited
+RiskType,Sequence,Display Value,DataValue,Status
+RiskType,1,Apartment House,Apartment House,Inherited
+RiskType,2,Contracting,Contracting,Inherited
+RiskType,3,Industrial/Processing,Industrial/Processing,Inherited
+RiskType,4,Institutional,Institutional,Inherited
+RiskType,5,Mercantile,Mercantile,Inherited
+RiskType,6,Motel/Hotel,Motel/Hotel,Inherited
+RiskType,7,Office,Office,Inherited
+RiskType,8,Service,Service,Inherited
+RiskType,9,CPP not Providing Property and Premises/Operations Liability Coverage,CPP not Providing Property and Premises/Operations Liability Coverage,Inherited
+YesNo,Sequence,Display Value,DataValue,Status
+YesNo,1,No,No,Inherited
+YesNo,2,Yes,Yes,Inherited

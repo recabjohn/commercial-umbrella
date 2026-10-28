@@ -1,0 +1,50 @@
+Table,Title,Type,Data Type,Size,Scale,Xml Type,Bureau Rule Number,Comment,Masked
+Act,Act,picklist,Text,80,,,,,No
+BoatType,Type of Boat,picklist,Text,128,,,,,No
+CityTown,City Town,picklist,Text,128,,,,,No
+Constant,Constant,picklist,Text,128,,,,,No
+ConstructionCode,Construction Code,picklist,Text,128,,,,,No
+ConstructionType,Type of Construction,picklist,Text,128,,,,,No
+County,County,picklist,Text,128,,,,,No
+CoverageForm,,picklist,Text,80,,,27.A,Occurrence vs. Claims-made,No
+CoverageFormNotApplicable,Coverage Form Not Applicable,picklist,Text,80,,,27.A,Occurrence vs. Claims-made,No
+Deduct,Deductible,picklist,Text,128,,,,,No
+ElectronicSignature,Electronic Signature,picklist,Text,8,,,,,No
+ExcludeInclude,Exclude Include,picklist,Text,80,,,,,No
+FireClassificationCode,Fire Classification Code,picklist,Text,128,,,,,No
+JudgementRatingFactor,Judgement Rating Factor,picklist,Text,80,,,,,No
+LegalEntity,Legal Entity,picklist,Text,80,,,,,No
+LiabilityLimit,Liability Limit,picklist,Text,80,,,,,No
+LiabilityLimit1Million,Liability Limit 1 Million,picklist,Text,80,,,,Limits starting at 1 million,No
+LiabilityLimit1MillionNotApplicable,Liability Limit 1 Million Not Applicable,picklist,Text,80,,,,,No
+LiabilityLimit2MillionNotApplicable,Liability Limit 2 Million Not Applicable,picklist,Text,80,,,,,No
+LiabilityLimitEL,Liability Limit EL,picklist,Text,80,,,,,No
+LiabilityLimitELAggregate,Liability Limit EL Aggregate,picklist,Text,80,,,,,No
+LiabilityLimitNotApplicable,Liability Limit Not Applicable,picklist,Text,80,,,,,No
+LiabLimit,Liability Limit,picklist,Text,128,,,,,No
+Limit,Limit,picklist,Text,80,,,,,No
+MedPayLimit,Medical Payments Limit,picklist,Text,128,,,,,No
+OccupancyType,Occupancy Type,picklist,Text,128,,,,,No
+Occupation,Occupation,picklist,Text,128,,,,,No
+PaymentAgencyBillMethod,Payment Agency Bill Method,picklist,Text,32,,,,,No
+PaymentBillToType,Payment Bill To Type,picklist,Text,32,,,,,No
+PaymentBillType,Payment Bill Type,picklist,Text,32,,,,,No
+PaymentCreditCardCompany,Payment Credit Card Company,picklist,Text,128,,,,,No
+PaymentCreditCardType,PaymentCreditCardType,picklist,Text,32,,,,,No
+PaymentDelivery,Payment Delivery,picklist,Text,32,,,,,No
+PaymentDownPaymentFeeIndicator,Payment Down Payment Fee Indicator,picklist,Text,3,,,,,No
+PaymentDownPaymentType,Payment Down Payment Type,picklist,Text,32,,,,,No
+PaymentEFTAccountType,Payment EFT Account Type,picklist,Text,32,,,,,No
+PaymentFollowOnPaymentType,Payment Follow On Payment Type,picklist,Text,32,,,,,No
+PaymentPlan,Payment Plan,picklist,Text,32,,,,,No
+PaymentType,Payment Type,picklist,Text,32,,,,,No
+PolicyCoverageForm,Policy Coverage Form,picklist,Text,100,,,22; 50,,No
+PolicyForm,Policy Form,picklist,Text,128,,,,,No
+RiskType,Risk Type,picklist,Text,80,,,,,No
+State,State,picklist,Text,128,,,,,No
+StateFullName,State,picklist,Text,128,,,,,No
+UMBILimit,Uninsured Motorist Bodily Injury,picklist,Text,128,,,,,No
+UMLiabLimit,Uninsured Motorist Liability Limit,picklist,Text,128,,,,,No
+UnderlyingPolicyType,Underlying Policy Type,picklist,Text,80,,,,,No
+YearPickList,Year,picklist,Text,128,,,,,No
+YesNo,Yes or No,picklist,Text,128,,,,,No
